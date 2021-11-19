@@ -1,0 +1,209 @@
+// 38. Portfolio
+/*------------------------------------------------------------------------------------------*/
+/* 38. Portfolio */
+/*------------------------------------------------------------------------------------------*/
+
+.li-portfolio{
+  border: 1px solid $color5;
+}
+
+/* Portfolio Small
+-------------------------------------*/
+.portfolio_small{
+  .portfolio_meta{
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    margin-top: -15px;
+  }
+
+  .portfolio_info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px 20px;
+    height: 85px;
+    width: 100%;
+    background-color: $color4;
+
+    &:before{
+      position: absolute;
+      top: -15px;
+      left: 50%;
+      margin-left: -15px;
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 15px 15px 15px;
+      border-color: transparent transparent $color4 transparent;
+    }
+  }
+
+  .portfolio_title{
+    color: $color3;
+    font-weight: bold;
+  }
+
+  .portfolio_description{
+    font-size: 14px;
+  }
+
+  .portfolio_info_overlay{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    bottom:-100%;
+    left:0;
+    background-color: $color3;
+    visibility: hidden;
+    transition: all 0.4s ease;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    &:before{
+      position: absolute;
+      top: -15px;
+      left: 50%;
+      margin-left: -15px;
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 15px 15px 15px;
+      border-color: transparent transparent $color3 transparent;
+    }
+
+    .btn{
+      width: 48%;
+    }
+
+  }
+
+  &:hover{
+    .portfolio_meta .portfolio_info_overlay{
+      visibility: visible;
+      bottom: 0px;
+    }
+  }
+
+  .carousel-control{
+    background: none;
+  }
+}
+
+/* Portfolio Large
+-------------------------------------*/
+.portfolio_large{
+  display: flex;
+  align-items: stretch;
+
+
+  .portfolio_images{
+    flex: 1;
+
+    .slide{
+      height: 100%;
+
+      img{
+        object-fit: cover;
+        height: 410px;
+      }
+    }
+
+    .carousel-indicators li{
+      height: 20px;
+      width: 20px;
+      background-color: $color0;
+      opacity: 0.7;
+
+      &.active{
+        opacity: 1;
+        margin: 1px;
+      }
+    }
+  }
+
+  .portfolio_meta{
+    flex: 1;
+
+    .portfolio_info{
+      padding: 35px 25px 15px 25px;
+      height: 100%;
+      background-color: $color4;
+
+      &:before{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -15px;
+        margin-left: -15px;
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 15px 15px 15px 0px;
+        border-color: transparent $color4 transparent transparent ;
+      }
+    }
+
+    .portfolio_info_overlay{
+      display: flex;
+      justify-content: space-between;
+
+      .btn{
+        width: 48%;
+      }
+
+    }
+
+    .portfolio_title{
+      color: $color3;
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 25px;
+    }
+  }
+}
+
+/* Portfolio Media Queries
+-------------------------------------*/
+///* Desktops devices (desktops, 1200px and down)*/
+//////////////////////////////////////////////////////////////////////////
+//@media (max-width: 1200px) {}
+//
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 992px) {  }
+//
+/* Small devices (768px and down) */
+//////////////////////////////////////////////////////////////////////////
+@media (max-width: 768px) {
+  .portfolio_large{
+    display: block;
+
+    .portfolio_images{
+      .slide{
+        height: 100%;
+
+        img{
+          object-fit: cover;
+          height: 410px;
+          width: 100%;
+        }
+      }
+    }
+
+    .portfolio_meta{
+      &:before{
+        display: none;
+      }
+    }
+
+  }
+}
+
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

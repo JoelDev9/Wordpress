@@ -1,0 +1,51 @@
+/*------------------------------------------------------------------------------------------*/
+/* leadinjection Visual Composer Icons Sprite CSS */
+/*------------------------------------------------------------------------------------------*/
+
+.vc_element-icon.li-icon { background-image: url(../../img/li-vc-icons.png) !important;; }
+.vc_element-icon.li-location-map { background-position: 0 0px; }
+.vc_element-icon.li-icon-text-box { background-position: 0 -32px; }
+.vc_element-icon.li-countdown { background-position: 0 -64px; }
+.vc_element-icon.li-accordion { background-position: 0 -96px !important; }
+.vc_element-icon.li-heading { background-position: 0 -128px !important; }
+.vc_element-icon.li-pricing-table { background-position: 0 -160px !important; }
+.vc_element-icon.li-onpage-nav { background-position: 0 -192px !important; }
+.vc_element-icon.li-embed-video { background-position: 0 -224px !important; }
+.vc_element-icon.li-number-counter { background-position: 0 -256px !important; }
+.vc_element-icon.li-modal { background-position: 0 -288px !important; }
+.vc_element-icon.li-textblock { background-position: 0 -320px !important; }
+.vc_element-icon.li-single-icon { background-position: 0 -352px !important; }
+.vc_element-icon.li-person-profile { background-position: 0 -384px !important; }
+.vc_element-icon.li-testimonial-slider { background-position: 0 -416px !important; }
+.vc_element-icon.li-button { background-position: 0 -448px !important; }
+.vc_element-icon.li-image { background-position: 0 -480px !important; }
+.vc_element-icon.li-icon-list { background-position: 0 -512px !important; }
+.vc_element-icon.li-icon-list-item { background-position: 0 -512px !important; }
+.vc_element-icon.li-feature-icon { background-position: 0 -544px !important; }
+.vc_element-icon.li-side-icon { background-position: 0 -576px !important; }
+.vc_element-icon.li-rating-slider { background-position: 0 -608px !important; }
+.vc_element-icon.li-tabs { background-position: 0 -640px !important; }
+.vc_element-icon.li-blog-listing { background-position: 0 -672px !important; }
+.vc_element-icon.li-alert { background-position: 0 -704px !important; }
+.vc_element-icon.li-divider { background-position: 0 -736px !important; }
+.vc_element-icon.li-image-gallery { background-position: 0 -768px !important; }
+.vc_element-icon.li-progress-bar { background-position: 0 -800px !important; }
+.vc_element-icon.li-portfolio { background-position: 0 -832px !important; }
+.vc_element-icon.li-form { background-position: 0 -864px !important; }
+.vc_element-icon.li-hidden { background-position: 0 -896px !important; }
+.vc_element-icon.li-email { background-position: 0 -928px !important; }
+.vc_element-icon.li-checkbox { background-position: 0 -960px !important; }
+.vc_element-icon.li-radio { background-position: 0 -992px !important; }
+.vc_element-icon.li-text { background-position: 0 -1024px !important; }
+.vc_element-icon.li-textarea { background-position: 0 -1056px !important; }
+.vc_element-icon.li-dropdown { background-position: 0 -1088px !important; }
+.vc_element-icon.li-multiselect { background-position: 0 -1120px !important; }
+.vc_element-icon.li-date { background-position: 0 -1152px !important; }
+.vc_element-icon.li-phone { background-position: 0 -1184px !important; }
+.vc_element-icon.li-file { background-position: 0 -1216px !important; }
+.vc_element-icon.li-number { background-position: 0 -1248px !important; }
+.vc_element-icon.li-recaptcha { background-position: 0 -1280px !important; }
+.vc_element-icon.li-submit { background-position: 0 -1312px !important; }
+.vc_element-icon.li-url { background-position: 0 -1344px !important; }
+.vc_element-icon.li-review-block { background-position: 0 -1376px !important; }
+.vc_element-icon.li-adv-pricing-table { background-position: 0 -1408px !important; }

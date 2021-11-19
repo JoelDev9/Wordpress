@@ -1,0 +1,39 @@
+// 14. Image
+/*------------------------------------------------------------------------------------------*/
+/* 14. Image */
+/*------------------------------------------------------------------------------------------*/
+
+.li-image{
+  figure{
+    background-color: transparent;
+    &:hover img{
+      opacity:100;}
+  }
+
+  figcaption span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+
+  .img-responsive{
+    display: inline-block;
+  }
+}
+
+///* Image Media Queries
+//-------------------------------------*/
+///* Desktops devices (desktops, 1200px and down)*/
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 1200px) {  }
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 992px) {  }
+//
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) {  }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

@@ -1,0 +1,97 @@
+// 27. Icon Text Box
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/* 27. Icon text Box */
+/*------------------------------------------------------------------------------------------*/
+
+.li-icon-text-box {
+  border-bottom: 5px solid rgba($color1, 0.4);;
+  margin-bottom: 30px;
+  background: #EEEEEE;
+
+
+  .li-icon-text-box-inner {
+    padding: 2px 50px 25px 23px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 2px solid transparent;
+
+    .li-icon-text-box-title {
+      color: $color1;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .li-icon-text-box-link {
+      display: table;
+      color: $color1;
+      font-weight: bold;
+      margin-top: -10px;
+
+      i {
+        font-size: 18px;
+        vertical-align: middle;
+        margin-top: -2px;
+      }
+    }
+
+    .li-icon-text-box-icon {
+      color: rgba($color1, 0.4);
+      font-size: 112px;
+      position: absolute;
+      right: -30px;
+      bottom: -30px;
+      z-index: 1;
+      display: inline-block;
+      width: 144px;
+      height: 112px;
+      vertical-align: middle;
+      text-align: center;
+      line-height: 1;
+      transition: all 0.5s ease-out;
+    }
+
+  }
+
+  &:hover{
+    .li-icon-text-box-inner {
+
+      .li-icon-text-box-icon {
+
+        font-size: 105px;
+
+        right: -38px;
+        bottom: -38px;
+
+      }
+
+    }
+  }
+}
+
+/* Icon Text Box Media Queries
+-------------------------------------*/
+/* Desktops devices (desktops, 1200px and down)*/
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 1200px) {
+
+  .li-icon-text-box {
+    .li-icon-text-box-title {
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+  }
+
+}
+
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 992px) {  }
+//
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) {  }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

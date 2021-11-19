@@ -1,0 +1,113 @@
+// 31. Top Widget Bar
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/* 31. Top Widget Bar */
+/*------------------------------------------------------------------------------------------*/
+
+.li-topbar{
+  width: 100%;
+  min-height: 47px;
+  background-color: $color3;
+  top: 0;
+  padding: 0px 15px 0 10px;
+  z-index: 1030;
+
+  .social-icons{
+    float: left;
+    margin-left: -5px;
+
+    a{
+      color: #fff;
+      height: 47px;
+      width: 47px;
+      text-align: center;
+      display: inline-block;
+      line-height: 47px;
+      border-left: 1px solid rgba(255,255,255, 0.2);
+      border-right-width: 0 !important;
+      font-size: 20px;
+      transition: all 0.2s ease-out;
+
+      &:last-of-type{
+        border-right-width: 1px !important;
+        border-right: 1px solid rgba(255,255,255, 0.2) ;
+      }
+      
+      &:hover{
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+    }
+
+  }
+
+
+  .contact-info{
+    float: right;
+
+    text-align: right;
+
+    a{
+      color: #fff;
+      height: 47px;
+      line-height: 47px;
+      font-weight: normal;
+      font-size: 14px;
+      margin-right: 10px;
+
+      &:last-of-type{
+        margin-right: 0;
+      }
+
+      i{
+        font-size: 20px;
+        margin-right: 5px;
+      }
+
+    }
+  }
+
+}
+
+
+
+
+/* Top Widget Bar Media Queries
+-------------------------------------*/
+/* Desktops devices (desktops, 1200px and down)*/
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 1200px) {
+  .li-topbar {
+
+    .social-icons {
+      float: left;
+      margin-left: -5px;
+
+      a {
+        color: #fff;
+        height: 47px;
+        width: 43px;
+        font-size: 16px;
+      }
+
+    }
+  }
+
+}
+
+
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 992px) {
+  .li-topbar{
+    display: none !important;
+  }
+}
+
+
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) {  }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

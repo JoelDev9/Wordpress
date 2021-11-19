@@ -1,0 +1,291 @@
+// 07. Accordion
+/*------------------------------------------------------------------------------------------*/
+/* 07. Accordion */
+/*------------------------------------------------------------------------------------------*/
+
+/* Accordion Bullets
+-------------------------------------*/
+
+.li-accordion-bullets{
+  margin-bottom: 0px;
+
+  .panel{
+    border-color: $color3;
+    box-shadow: none;
+    background: none;
+  }
+
+  .panel-heading{
+    background-color: $color3;
+    color: $color0;
+    border-color: $color3;
+    position: relative;
+    padding: 13px;
+    height: 45px;
+  }
+
+  .panel-title{
+    font-size: 16px;
+    line-height: normal;
+    color: $color0;
+  }
+
+  .panel-title-link{
+    color: #fff;
+  }
+
+  .panel-title-link:hover{
+    text-decoration: none;
+  }
+
+  .panel-title-link:focus{
+    text-decoration: none;
+  }
+
+  .panel-title-link-toggle{
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+  }
+
+  .panel-body{
+    border-top: none !important;
+    padding: 22px;
+    border-radius: 3px;
+
+    p:last-of-type{
+      margin-bottom: 0;
+    }
+  }
+
+}
+
+.li-accordion-bullets-cornered{
+   @extend .li-accordion-bullets;
+
+   .panel{
+     border-radius: 0;
+   }
+
+   .panel-heading{
+     border-radius: 0;
+   }
+
+   .panel-body{
+     border-radius: 0;
+
+     p:last-of-type{
+       margin-bottom: 0;
+     }
+   }
+
+ }
+
+.li-accordion-bullets-round{
+  @extend .li-accordion-bullets;
+
+  .panel{
+    border: none;
+  }
+
+  .panel-heading{
+    border-radius: 25px;
+  }
+
+  .panel-body{
+    border-radius: 25px;
+
+    p:last-of-type{
+      margin-bottom: 0;
+    }
+  }
+
+}
+
+
+/* Accordion Plus/Minus
+-------------------------------------*/
+
+.li-accordion-plus-minus{
+  margin-bottom: 0px;
+
+  .panel{
+    border-color: $color5;
+    box-shadow: none;
+    border-radius: 5px;
+  }
+
+  .panel-heading{
+    background-color: $color0;
+    color: $color3;
+    border-color: $color5;
+    position: relative;
+    padding: 13px 0 0 0;
+    height: 45px;
+    border-radius: 4px;
+  }
+
+  .panel-heading_active{
+    background-color: $color4;
+    border-bottom-right-radius: 0;
+  }
+
+  .panel-title{
+    font-size: 16px;
+    line-height: normal;
+    color: $color3;
+    margin-left: 58px;
+  }
+
+  .panel-title-link{
+    color: $color3;
+  }
+
+  .panel-title-link:hover{
+    text-decoration: none;
+  }
+
+  .panel-title-link:focus{
+    text-decoration: none;
+  }
+
+  .panel-title-link-toggle{
+    float: left;
+    background-color: $color3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: $color0;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 24px;
+  }
+
+  .panel-title-link-toggle_collapse{
+    border-bottom-left-radius: 0px;
+  }
+
+  .panel-collapse{
+    border-top: 1px solid $color5;
+  }
+
+  .panel-body{
+    border-top: none !important;
+    padding: 22px;
+    border-radius: 3px;
+    background-color: #fff;
+
+    p:last-of-type{
+      margin-bottom: 0;
+    }
+  }
+
+}
+
+.li-accordion-plus-minus-cornered{
+  @extend .li-accordion-plus-minus;
+
+  .panel{
+    border-radius: 0;
+  }
+
+  .panel-heading{
+    border-radius: 0;
+  }
+
+  .panel-body{
+    border-radius: 0;
+
+    p:last-of-type{
+      margin-bottom: 0;
+    }
+  }
+
+  .panel-title-link-toggle{
+    border-radius: 0;
+  }
+
+}
+
+
+.li-accordion-plus-minus-round{
+  @extend .li-accordion-plus-minus;
+
+  .panel{
+    border:none
+  }
+
+  .panel-heading{
+    border-radius: 25px;
+    border: 1px solid $color5;
+  }
+
+  .panel-collapse{
+    border-top: none;
+  }
+
+  .panel-body{
+    border-radius: 25px;
+
+    p:last-of-type{
+      margin-bottom: 0;
+    }
+  }
+
+  .panel-title-link-toggle{
+    border-radius: 25px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+  }
+
+}
+
+
+
+/* Accordion Media Queries
+-------------------------------------*/
+/* Desktops devices (desktops, 1200px and down)*/
+//////////////////////////////////////////////////////////////////////////
+@media (max-width: 1200px) {
+
+  .li-accordion{
+
+    .panel-heading{
+      padding: 10px;
+    }
+
+    .panel-title{
+      font-size: 14px;;
+    }
+
+    .panel-title-link-toggle{
+      font-size: 16px;
+      right: 9px;
+      top: 11px;
+    }
+
+    .panel-body{
+      padding: 22px;
+    }
+
+  }
+
+}
+
+//* Medium devices (desktops, 992px and down) */
+//////////////////////////////////////////////////////////////////////////
+//@media (max-width: 992px) {  }
+
+///* Small devices (768px and down) */
+//////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) {  }
+
+///* Extra Small devices (480px and down) */
+//////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

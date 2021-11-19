@@ -1,0 +1,74 @@
+// 41. Textblock
+/*------------------------------------------------------------------------------------------*/
+/* 41. Textblock */
+/*------------------------------------------------------------------------------------------*/
+
+.li-review-block {
+  display: flex;
+
+  &.review-block-shadow{
+    transition: all 0.3s ease-out;
+    padding: 30px;
+    &:hover{
+      box-shadow: 0 0 10px 0 rgba(197, 197, 197, 0.30);
+    }
+  }
+
+  // Flex Items
+  .review-block-image-container {
+  }
+  .review-block-review-container {
+  }
+
+  .review-block-image {
+    margin-right: 23px;
+    width: 84px;
+    height: 84px;
+    overflow: hidden;
+
+    &.round {
+      border-radius: 85px;
+    }
+
+    &.rounded {
+      border-radius: 6px;
+    }
+
+  }
+
+  .review-block-comment {
+
+  }
+
+  .review-block-author {
+    font-weight: bold;
+  }
+
+  .review-block-author-source {
+    color: $color1;
+    font-weight: normal;
+  }
+
+  .review-block-rating {
+    color: #F5A623;
+  }
+
+}
+
+///* Textblock Media Queries
+//-------------------------------------*/
+///* Desktops devices (desktops, 1200px and down)*/
+//////////////////////////////////////////////////////////////////////////
+//@media (max-width: 1200px) {}
+//
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 992px) {  }
+//
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) {  }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

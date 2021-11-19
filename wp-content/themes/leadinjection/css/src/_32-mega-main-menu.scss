@@ -1,0 +1,127 @@
+// 32. Mega Main Menu
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/* 32. Mega Main Menu */
+/*------------------------------------------------------------------------------------------*/
+
+.mega_main_menu{
+
+  .menu_holder{
+    padding: 20px 0 0 0;
+
+    .menu_inner > .nav_logo > .logo_link{
+      padding-left: 8px;
+    }
+
+    .menu_inner .item_link > .link_content > .link_text > .link_descr{
+      margin-bottom: 10px;
+    }
+
+    .menu_inner > ul > li > .mega_dropdown {
+      top: 100%;
+    }
+
+    .menu_inner > ul > li[class*=additional_style_] > .item_link {
+      padding-left: 18px;
+      padding-right: 18px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-radius: 3px;
+    }
+
+    .menu_inner > ul > li > .item_link.with_icon i{
+      padding-right: 10px !important;
+    }
+
+    .menu_inner > .nav_logo .mobile_toggle .mobile_button span{
+      font-size: 24px;
+    }
+
+  }
+
+  &.fullwidth-disable .menu_inner{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  // WooCommerce
+  &.primary.icons-left > .menu_holder > .menu_inner > ul > li.nav_woo_cart > .item_link > i:before{
+    content: "\f291";
+    font-family: FontAwesome;
+    padding-right: 11px;
+  }
+
+  .nav_woo_cart .mage_dropdown{
+    width: 300px;
+  }
+
+  .widget_shopping_cart_content{
+    line-height: 1.6;
+  }
+
+  .woocommerce-mini-cart-item{
+    border-bottom: 1px solid $color6;
+    padding: 8px 0;
+    .attachment-shop_thumbnail{
+      width: 50px;
+      border-radius: 2px;
+      margin-right: 10px;
+    }
+  }
+
+  .remove_from_cart_button{
+    float: right;
+    margin-top: 12px;
+  }
+
+  .woocommerce-mini-cart__total{
+    margin-top: 15px;
+  }
+
+  .woocommerce-mini-cart__buttons{
+    .wc-forward{
+      margin-right: 5px;
+      height: 34px;
+    }
+    .wc-forward.checkout{}
+  }
+}
+
+
+/* Mega Main Menu Media Queries
+-------------------------------------*/
+/* Desktops devices (desktops, 1200px and down)*/
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 959px) {
+  .mega_main_menu .menu_holder {
+    padding-bottom: 20px;
+  }
+
+  .mega_main_menu > .menu_holder > .menu_inner > ul{
+    background-color: rgba(0,0,0,0.5);
+  }
+
+  .mega_main_menu .menu_holder .menu_inner > ul > li {
+    padding: 5px !important;
+    border-bottom: 1px solid rgba(255,255,255, 0.3) !important;
+  }
+}
+
+
+
+///* Large devices (desktops, 1200px and down)*/
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 1200px) {  }
+//
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 992px) {  }
+//
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) {  }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

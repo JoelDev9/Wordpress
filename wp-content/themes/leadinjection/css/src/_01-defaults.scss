@@ -1,0 +1,499 @@
+// 01. Defaults
+/*------------------------------------------------------------------------------------------*/
+/* 01. Defaults */
+/*------------------------------------------------------------------------------------------*/
+
+// Theme Base Colors
+$color0: #ffffff;
+$color1: #428BFF;
+$color2: #63738C;
+$color3: #2B4269;
+$color4: #F8F9FC;
+$color5: #F0F2F7;
+$color6: #DDE0E5;
+
+// Default Colors
+$li-white: #ffffff;
+$li-green: #32ba5b;
+$li-blue:  #428BFF;
+$li-red: #f55753;
+$li-yellow: #fbb05e;
+$li-purple: #6d5eac;
+$li-gray: #626262;
+$li-turquoise: #10cfbd;
+
+$default-title-color: #222222;
+$default-content-color: #575756;
+$link-color: $color1;
+$button-radius: 3px;
+$form-radius: 3px;
+
+$scale1200: 87.5;
+$scale768: 67.5;
+
+$form-border-radius: 4px;
+
+$form-field-background: #F6F8F8;
+
+
+
+/* Clearings
+-------------------------------------*/
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+  content: "";
+  display: table;
+}
+
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+  clear: both;
+}
+
+.wp-block-image::after{
+  content: '';
+  clear: both;
+  display:block;
+}
+
+.page .site-main-content{
+  margin: 45px auto;
+  max-width: 1140px;
+}
+
+.wpb-js-composer .site-main-content{
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.page .site-main-content p:last-of-type:after,
+.single .blog-main-content .entry-content p:last-of-type:after{
+  content: '';
+  clear: both;
+  display:block;
+}
+
+/* Defaults Configs
+-------------------------------------*/
+html{
+  overflow-y: scroll;
+}
+
+body {
+  color: $default-content-color;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+  // Nice Font Rendering
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: -1px;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 400;
+}
+
+h1{  font-size: 48px; }
+h2{  font-size: 30px; line-height: 44px;}
+h3{  font-size: 20px; line-height: 33px; }
+h4{  font-size: 18px; line-height: 31px;}
+h5{  font-size: 16px; }
+h6{  font-size: 14px; }
+
+a{
+  color: $color1;
+  cursor: pointer;
+  &:focus{
+    outline: none;
+  }
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+blockquote{
+  border-left: 5px solid $color1;
+  margin-left: 25px;
+  font-weight: 300;
+}
+
+.page-container{
+
+  &.fluid{
+    width: 100%;
+  }
+  &.box{
+    max-width: 1530px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+}
+
+.scroll-up-btn{
+  width: 45px;
+  height: 45px;
+  background-color: rgba(74,74,74, 0.6);
+  border: 1px solid $color0;
+  display: none;
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 2px;
+  font-size: 24px;
+  color: $color0;
+  transition: all 0.2s ease-out;
+  z-index: 101;
+
+  &:hover{
+    color: $color0;
+    background-color: $color1;
+  }
+
+  &:focus{
+    color: $color0;
+  }
+}
+
+
+
+/* Defaults Visual Composer
+-------------------------------------*/
+.row_default,
+.row_stretched{
+  max-width: 1170px;
+  margin-left:  auto !important;
+  margin-right: auto !important;
+}
+.vc_row.wpb_row, .row_style {
+  position: relative;
+  margin-bottom: 85px;
+
+  &:last-of-type{
+    margin-bottom: 0;
+  }
+}
+
+.wpb_content_element{
+  margin-bottom: 0 !important;
+}
+
+
+.row_style_before{
+  position: absolute;
+  height: 30px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+
+  .row_style_before_content:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    width: 50.5%;
+    height: 0;
+    border: 30px solid transparent;
+    box-sizing: border-box;
+    left: 0;
+    border-top-color: inherit;
+    border-left-color: inherit;
+    border-bottom-width: 0;
+  }
+
+  .row_style_before_content:after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    width: 50.5%;
+    height: 0;
+    border: 30px solid transparent;
+    right: 0;
+    box-sizing: border-box;
+    border-top-color: inherit;
+    border-right-color: inherit;
+    border-bottom-width: 0;
+  }
+}
+
+.row_style_after{
+  position: absolute;
+  height: 30px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+
+  .row_style_after_content:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    width: 50.5%;
+    height: 0;
+    border: 30px solid transparent;
+    box-sizing: border-box;
+    left: 0;
+    border-bottom-color: inherit;
+    border-left-color: inherit;
+    border-top-width: 0;
+  }
+
+  .row_style_after_content:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    width: 50.5%;
+    height: 0;
+    border: 30px solid transparent;
+    right: 0;
+    box-sizing: border-box;
+    border-bottom-color: inherit;
+    border-right-color: inherit;
+    border-top-width: 0;
+  }
+
+}
+
+.row_shadow_gap{
+  box-shadow: 0 1px 4px 0 #DCDEDF;
+}
+
+
+/* Defaults Preloader
+-------------------------------------*/
+.js div#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background-color: #fff;
+
+  .loader {
+    margin: 20% auto;
+    color: $color1;
+    font-size: 8px;
+    position: relative;
+    text-indent: -9999em;
+    border-top: 5px solid $color1;
+    border-right: 5px solid $color1;
+    border-bottom: 5px solid $color1;
+    border-left: 5px solid transparent !important;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 1.1s infinite linear;
+    animation: load8 1.1s infinite linear;
+  }
+  .loader,
+  .loader:after {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+  }
+  @-webkit-keyframes load8 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes load8 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+}
+
+
+/* Default Asides
+-------------------------------------*/
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+  display: none;
+}
+
+
+/* Default Infinite scroll
+-------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+.infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
+.infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
+  display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+.infinity-end.neverending .site-footer {
+  display: block;
+}
+
+
+/* Default Media
+-------------------------------------*/
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+
+
+/* Sefault Captions
+-------------------------------------*/
+.wp-caption {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin: 0 auto;
+}
+
+.wp-caption-text {
+  text-align: center;
+}
+
+.wp-caption .wp-caption-text {
+  margin: 0.8075em 0;
+}
+
+/* Default Galleries
+-------------------------------------*/
+.gallery {
+  margin-bottom: 1.5em;
+}
+
+.gallery-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+  max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+  max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+  max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+  max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+  max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+  max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+  max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+  max-width: 11.11%;
+}
+
+.gallery-caption {
+  display: block;
+}
+
+
+/* Defaults Media Queries
+-------------------------------------*/
+/* Desktops devices (desktops, 1200px and down)*/
+//////////////////////////////////////////////////////////////////////////
+@media (max-width: 1200px) {
+
+  body{
+    font-size: 16px / 100 * $scale1200 !important;
+    line-height: 28px / 100 * $scale1200 !important;
+  }
+
+  p{
+    margin-bottom: 25px / 100 * $scale1200;
+    font-size: 16px / 100 * $scale1200;
+  }
+
+}
+
+/* Medium devices (desktops, 992px and down) */
+//////////////////////////////////////////////////////////////////////////
+@media (max-width: 992px) {
+
+  .vc_row.wpb_row {
+    position: relative;
+    margin-bottom: 65px;
+  }
+
+}
+
+/* Small devices (768px and down) */
+//////////////////////////////////////////////////////////////////////////
+@media (max-width: 768px) {
+
+  .vc_column_container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 40px;
+
+    &:last-of-type{
+      margin-bottom: 0;
+    }
+  }
+
+}
+
+///* Extra Small devices (480px and down) */
+//////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) { }

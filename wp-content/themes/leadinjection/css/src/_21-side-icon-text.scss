@@ -1,0 +1,223 @@
+// 21. Side Icon Text
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/* 21. Side Icon Text */
+/*------------------------------------------------------------------------------------------*/
+
+.li-side-icon-text {
+
+  .li-side-icon-text-icon {
+    width: 46px;
+    height: 46px;
+    color: $color1;
+    font-size: 44px;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .li-side-icon-text-icon_round {
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+    color: $color0;
+    font-size: 24px;
+    text-align: center;
+    background-color: $color1;
+    line-height: 46px;
+  }
+
+  .li-side-icon-text-icon_square {
+    width: 46px;
+    height: 46px;
+    color: $color0;
+    font-size: 24px;
+    text-align: center;
+    background-color: $color1;
+    line-height: 46px;
+  }
+
+  .li-side-icon-text-icon_rounded {
+    width: 46px;
+    height: 46px;
+    border-radius: 5px;
+    color: $color0;
+    font-size: 24px;
+    text-align: center;
+    background-color: $color1;
+    line-height: 46px;
+  }
+
+  .li-side-icon-text-icon_underline {
+    width: 46px;
+    height: 46px;
+    color: $color1;
+    font-size: 36px;
+    text-align: center;
+    border-bottom: 3px solid $color1;
+  }
+
+
+  .li-side-icon-text-icon_hexagon{
+    position: relative;
+    width: 44px;
+    height: 26.56px;
+    background-color: $color1;
+    margin: 18.28px 0;
+    text-align: center;
+    color: $color0;
+    font-size: 24px;
+
+    i, span{
+      position: absolute;
+      left: 0;
+      z-index: 1;
+      width: 44px;
+      height: 45px;
+    }
+
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 0;
+      border-left: 22.5px solid transparent;
+      border-right: 22.5px solid transparent;
+    }
+
+    &:before {
+      bottom: 100%;
+      border-bottom: 12.99px solid $color1;
+    }
+
+    &:after {
+      top: 100%;
+      width: 0;
+      border-top: 12.99px solid $color1;
+    }
+
+  }
+
+  .li-side-icon-text-icon_outline{
+    border: 2px solid $color1;
+    background-color: transparent;
+    color: $color1;
+    line-height: 44px;
+
+    span.typcn{
+      display: block;
+      line-height: 40px;
+    }
+
+  }
+
+  .li-side-icon-text-icon_hexagon.li-side-icon-text-icon_outline{
+    width: 46px;
+    background-color: transparent;
+    border-left: solid 2px $color1;
+    border-right: solid 2px $color1;
+    border-bottom: none;
+    border-top: none;
+
+    i, span{
+      top: 1px;
+      width: 43px;
+      height: 28px;
+    }
+
+
+    &:before,
+    &:after {
+      width: 32.3px;
+      height: 32.3px;
+      transform: scaleY(0.5774) rotate(-45deg);
+      background-color: inherit;
+      left: 5px;
+    }
+
+    &:before {
+      border-left: none;
+      border-bottom: none;
+      bottom: inherit;
+      top: -16.2635px;
+      border-top: solid 3.2426px $color1;
+      border-right: solid 3.2426px $color1;
+    }
+
+    &:after {
+      border-top: none;
+      border-right: none;
+      top: inherit;
+      bottom: -16.2635px;
+      border-bottom: solid 3.2426px $color1;
+      border-left: solid 3.2426px $color1;
+    }
+  }
+
+  .li-side-icon-text-content {
+    color: $default-content-color;
+  }
+
+  .li-side-icon-text-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: $default-title-color;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  img{
+    width: 100%;
+    display: block;
+  }
+
+  &.left {
+    .li-side-icon-text-icon {
+      float: left;
+    }
+
+    .li-side-icon-text-title {
+      margin-left: 75px;
+      margin-top: 0px;
+    }
+
+    .li-side-icon-text-content {
+      margin-left: 75px;
+    }
+  }
+
+  &.right {
+    .li-side-icon-text-icon {
+      float: right;
+    }
+
+    .li-side-icon-text-title {
+      text-align: right;
+      margin-right: 75px;
+    }
+
+    .li-side-icon-text-content {
+      text-align: right;
+      margin-right: 75px;
+    }
+  }
+
+}
+
+///* Side Icon Text Media Queries
+//-------------------------------------*/
+///* Desktops devices (desktops, 1200px and down)*/
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 1200px) {  }
+//
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 992px) {  }
+//
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) {  }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

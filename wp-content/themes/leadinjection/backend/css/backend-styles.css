@@ -1,0 +1,48 @@
+.column-lead_preview{
+    width: 50%;
+}
+
+.column-taxonomy-li_lead_tags{
+    width: 15%;
+}
+
+.column-created{
+    width: 10%;
+}
+
+.lilm_field{
+    width: 70%;
+}
+
+.importer-notice{
+    border-left: 5px solid red;
+    padding: 5px 10px;
+    margin-bottom: 25px;
+}
+
+.redux-container #redux-header .display_header {
+    margin: 0px 10px;
+}
+
+.redux-container #redux-header .display_header .redux-dev-mode-notice-container {
+    top: 22px;
+    left: 180px;
+}
+
+
+
+
+/*.vc_color-picker .wp-color-result {*/
+    /*height: 30px;*/
+    /*box-shadow: none;*/
+    /*border-radius: 2px;*/
+/*}*/
+
+/*.vc_color-picker .wp-color-result:after {*/
+    /*line-height: 30px;*/
+/*}*/
+
+
+.shortcode-textfield{
+    width: 100%;
+}

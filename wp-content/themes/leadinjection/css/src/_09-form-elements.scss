@@ -1,0 +1,676 @@
+// 09. Form Elements
+/*------------------------------------------------------------------------------------------*/
+/* 09. Form Elements */
+/*------------------------------------------------------------------------------------------*/
+
+.form-control {
+  border-color: $color5;
+  border-radius: $form-border-radius;
+  box-shadow: none;
+
+  &:focus {
+    background-color: #eeeeee;
+    box-shadow: none;
+    border-color: $color1;
+  }
+
+  &.input-sm {
+    padding: 8px 14px 9px;
+    font-size: 14px;
+    height: 41px;
+
+    &.pill {
+      border-radius: 100px;
+    }
+  }
+
+  &.textarea-sm {
+    padding: 8px 14px 9px;
+    font-size: 14px;
+
+    &.pill {
+      border-radius: 100px;
+    }
+  }
+
+  &.input-md {
+    padding: 8px 12px 9px;
+    height: 45px;
+    font-size: 16px;
+
+    &.pill {
+      border-radius: 100px;
+      padding-left: 14px;
+    }
+  }
+
+  &.textarea-md {
+    padding: 8px 12px 9px;
+    font-size: 16px;
+
+    &.pill {
+      border-radius: 100px;
+      padding-left: 14px;
+    }
+  }
+
+  &.input-lg {
+    padding: 8px 12px 9px;
+    height: 51px;
+    font-size: 20px;
+
+    &.pill {
+      border-radius: 100px;
+      padding-left: 16px;
+    }
+  }
+
+  &.textarea-lg {
+    padding: 8px 12px 9px;
+    font-size: 20px;
+
+    &.pill {
+      border-radius: 100px;
+      padding-left: 16px;
+    }
+  }
+
+  &.input-xl {
+    padding: 8px 12px 9px;
+    height: 60px;
+    font-size: 20px;
+
+    &.pill {
+      border-radius: 100px;
+      padding-left: 16px;
+    }
+  }
+
+  &.textarea-xl {
+    padding: 8px 12px 9px;
+    height: 60px;
+    font-size: 20px;
+
+    &.pill {
+      border-radius: 100px;
+      padding-left: 16px;
+    }
+  }
+
+  &.invert {
+    background-color: #ECF0F1 !important;
+    &:focus {
+      background-color: #e5e9ec !important;
+    }
+  }
+}
+
+/* Select
+-------------------------------------*/
+
+.styled-select {
+  position: relative;
+
+  select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-progress-appearance: none;
+  }
+
+  select::-ms-expand {
+    display: none;
+  }
+
+  &.select-sm {
+    .form-control {
+      padding: 5px 14px 9px;
+      height: 41px;
+      font-size: 14px;
+      &:focus {
+        background-color: #fff;
+      }
+    }
+
+    &:after {
+      font-family: 'FontAwesome';
+      content: "\f0d7";
+      font-size: 14px;
+      position: absolute;
+      z-index: 6;
+      color: '000';
+      top: 7px;
+      right: 10px;
+    }
+
+    &:before {
+      display: block;
+      position: absolute;
+      content: '';
+      right: 0;
+      bottom: 0;
+      height: 39px;
+      width: 35px;
+      margin: 1px 1px 1px 0;
+      border-radius: $form-border-radius;
+      background-color: #fff;
+      z-index: 5;
+    }
+
+  }
+
+  &.select-md {
+    .form-control {
+      padding: 7px 14px 9px;
+      height: 45px;
+      font-size: 16px;
+      &:focus {
+        background-color: #fff;
+      }
+    }
+
+    &:after {
+      font-family: 'FontAwesome';
+      content: "\f0d7";
+      font-size: 16px;
+      position: absolute;
+      z-index: 6;
+      color: '000';
+      top: 8px;
+      right: 10px;
+    }
+
+    &:before {
+      display: block;
+      position: absolute;
+      content: '';
+      right: 0;
+      bottom: 0;
+      height: 43px;
+      width: 35px;
+      margin: 1px 1px 1px 0;
+      border-radius: $form-border-radius;
+      background-color: #fff;
+      z-index: 5;
+    }
+
+  }
+
+  &.select-lg {
+    .form-control {
+      padding: 7px 14px 9px;
+      height: 51px;
+      font-size: 20px;
+      &:focus {
+        background-color: #fff;
+      }
+    }
+
+    &:after {
+      font-family: 'FontAwesome';
+      content: "\f0d7";
+      font-size: 20px;
+      position: absolute;
+      z-index: 6;
+      color: '000';
+      top: 11px;
+      right: 10px;
+    }
+
+    &:before {
+      display: block;
+      position: absolute;
+      content: '';
+      right: 0;
+      bottom: 0;
+      height: 49px;
+      width: 35px;
+      margin: 1px 1px 1px 0;
+      border-radius: $form-border-radius;
+      background-color: #fff;
+      z-index: 5;
+    }
+  }
+
+  &.select-xl {
+    .form-control {
+      padding: 7px 14px 9px;
+      height: 60px;
+      font-size: 20px;
+      &:focus {
+        background-color: #fff;
+      }
+    }
+
+    &:after {
+      font-family: 'FontAwesome';
+      content: "\f0d7";
+      font-size: 20px;
+      position: absolute;
+      z-index: 6;
+      color: '000';
+      top: 15px;
+      right: 10px;
+    }
+
+    &:before {
+      display: block;
+      position: absolute;
+      content: '';
+      right: 0;
+      bottom: 0;
+      height: 58px;
+      width: 37px;
+      margin: 1px 1px 1px 0;
+      border-radius: $form-border-radius;
+      background-color: #fff;
+      z-index: 5;
+    }
+  }
+
+  &.invert{
+    .form-control {
+      background-color: #eee;
+      &:focus {
+        background-color: #eee;
+      }
+    }
+    &:before {
+      background-color: #eee;
+    }
+  }
+
+}
+
+
+/* Input Groups
+-------------------------------------*/
+
+.input-group {
+
+  .form-control:last-child{
+    border-top-left-radius: $form-border-radius;
+    border-bottom-left-radius: $form-border-radius;
+  }
+
+  .btn:last-of-type{
+    border-top-right-radius: $form-border-radius;
+    border-bottom-right-radius: $form-border-radius;
+  }
+
+  .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle){
+    border-top-right-radius: $form-border-radius;
+    border-bottom-right-radius: $form-border-radius;
+  }
+
+  &.invert {
+    .form-control {
+      background-color: #eeeeee !important;
+      &:focus {
+        background-color: #ffffff !important;
+      }
+    }
+  }
+}
+
+.input-group-sm {
+  border-radius: $form-border-radius;
+
+  .input-group-addon {
+    border-color: #e5e9ec;
+    border-radius: 4px;
+    box-shadow: none;
+    //width: 41px;
+    padding: 0 15px;
+    font-size: 16px;
+    &:after {
+      right: -7px;
+      top: 2px;
+    }
+    &:before {
+      left: -7px;
+      top: 2px;
+    }
+  }
+
+  .input-group-btn .btn{
+    height: 41px;
+    padding: 0 22px;
+  }
+
+  .form-control {
+    padding: 8px 14px 9px;
+    font-size: 14px;
+    height: 41px;
+    border-radius: $form-border-radius;
+  }
+
+}
+
+.input-group-md {
+
+  .input-group-addon {
+    border-color: #e5e9ec;
+    border-radius: 4px;
+    box-shadow: none;
+    //width: 41px;
+    padding: 0 15px;
+    font-size: 18px;
+    &:after {
+      right: -7px;
+      top: 9px;
+    }
+    &:before {
+      left: -7px;
+      top: 9px;
+    }
+  }
+
+  .input-group-btn .btn{
+    height: 45px;
+    padding: 0 26px;
+  }
+
+  .form-control {
+    padding: 8px 12px 9px;
+    height: 45px;
+    font-size: 16px;
+    border-radius: $form-border-radius;
+  }
+}
+
+.input-group-lg {
+
+  .input-group-addon {
+    border-color: #e5e9ec;
+    border-radius: 4px;
+    box-shadow: none;
+    //width: 41px;
+
+    padding: 0 15px;
+    font-size: 22px;
+
+    &:after {
+      right: -7px;
+      top: 11px;
+    }
+    &:before {
+      left: -7px;
+      top: 11px;
+    }
+  }
+
+  .input-group-btn .btn{
+    height: 51px;
+    padding: 0 36px;
+  }
+
+  .form-control {
+    padding: 8px 12px 9px;
+    height: 51px;
+    font-size: 20px;
+    border-radius: $form-border-radius;
+  }
+}
+
+.input-group-xl {
+
+  .input-group-addon {
+    border-color: #e5e9ec;
+    border-radius: 4px;
+    box-shadow: none;
+    //width: 41px;
+
+    padding: 0 19px;
+    font-size: 22px;
+
+    &:after {
+      right: -7px;
+      top: 17px;
+    }
+    &:before {
+      left: -7px;
+      top: 11px;
+    }
+  }
+
+  .input-group-btn .btn{
+    height: 60px;
+    padding: 0 36px;
+  }
+
+  .form-control {
+    padding: 8px 12px 9px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: $form-border-radius;
+  }
+}
+
+.addon-before {
+  position: relative;
+  border-bottom-right-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+
+  &:after {
+    font-family: 'FontAwesome';
+    content: "\f0da";
+    font-size: 23px;
+    position: absolute;
+    z-index: 10;
+    color: #eee;
+  }
+}
+
+.addon-after {
+  position: relative;
+  border-bottom-left-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+
+  &:before {
+    font-family: 'FontAwesome';
+    content: "\f0d9";
+    font-size: 23px;
+    position: absolute;
+    z-index: 10;
+    color: #eee;
+  }
+}
+
+
+/* Addon Colors
+-------------------------------------*/
+
+.addon-green {
+  background-color: $li-green;
+  border-color: $li-green !important;
+  color: $li-white;
+
+  &:before {
+    color: $li-green;
+  }
+  &:after {
+    color: $li-green;
+  }
+
+}
+
+.addon-red {
+  background-color: $li-red;
+  border-color: $li-red !important;
+  color: $li-white;
+
+  &:before {
+    color: $li-red;
+  }
+  &:after {
+    color: $li-red;
+  }
+
+}
+
+.addon-yellow {
+  background-color: $li-yellow;
+  border-color: $li-yellow !important;
+  color: $li-white;
+
+  &:before {
+    color: $li-yellow;
+  }
+  &:after {
+    color: $li-yellow;
+  }
+
+}
+
+.addon-gray {
+  background-color: $li-gray;
+  border-color: $li-gray !important;
+  color: $li-white;
+
+  &:before {
+    color: $li-gray;
+  }
+  &:after {
+    color: $li-gray;
+  }
+
+}
+
+.addon-turquoise {
+  background-color: $li-turquoise;
+  border-color: $li-turquoise !important;
+  color: $li-white;
+  &:before {
+    color: $li-turquoise;
+  }
+  &:after {
+    color: $li-turquoise;
+  }
+}
+
+.addon-blue {
+  background-color: $li-blue;
+  border-color: $li-blue !important;
+  color: $li-white;
+
+  &:before {
+    color: $li-blue;
+  }
+  &:after {
+    color: $li-blue;
+  }
+
+}
+
+.addon-purple {
+  background-color: $li-purple;
+  border-color: $li-purple !important;
+  color: $li-white;
+
+  &:before {
+    color: $li-purple;
+  }
+  &:after {
+    color: $li-purple;
+  }
+
+}
+
+.addon-white {
+  background-color: $li-white;
+  border-color: $li-white !important;
+  color: $default-content-color;
+
+  &:before {
+    color: $li-white;
+  }
+  &:after {
+    color: $li-white;
+  }
+}
+
+.form-group{
+
+  .help-block{
+    font-size: 14px;
+  }
+
+  .error-msg{
+    font-size: 14px;
+    margin-left: 15px;
+    color: $li-red;
+  }
+
+  &.has-error{
+    label{color: $default-content-color};
+    .form-control{border-color: $li-red
+    }
+    .help-block{
+      color: $default-content-color;
+    }
+  }
+
+}
+
+///* Form Elements Media Queries
+//-------------------------------------*/
+/* Desktops devices (desktops, 1200px and down)*/
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 1200px) {
+  .input-group-xl {
+    .input-group-btn .btn{
+      height: 50px;
+      padding: 0 20px;
+      font-size: 18px;
+    }
+
+    .form-control {
+      padding: 8px 12px 9px;
+      height: 50px;
+      font-size: 20px;
+      border-radius: $form-border-radius;
+    }
+  }
+}
+
+/* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 992px) {
+  .input-group-xl {
+    .input-group-btn .btn{
+      height: 45px;
+      padding: 0 12px;
+      font-size: 16px;
+    }
+
+    .form-control {
+      padding: 8px 12px 9px;
+      height: 45px;
+      font-size: 14px;
+      border-radius: $form-border-radius;
+    }
+  }
+}
+
+/* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 768px) {
+  .input-group-xl {
+    .input-group-btn .btn{
+      height: 45px;
+      padding: 0 12px;
+      font-size: 16px;
+    }
+
+    .form-control {
+      padding: 8px 12px 9px;
+      height: 45px;
+      font-size: 14px;
+      border-radius: $form-border-radius;
+    }
+  }
+}
+
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

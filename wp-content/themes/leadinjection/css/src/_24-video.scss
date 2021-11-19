@@ -1,0 +1,37 @@
+// 24. Video
+/*------------------------------------------------------------------------------------------*/
+/* 24. Video */
+/*------------------------------------------------------------------------------------------*/
+
+.lp-video.embed-responsive.iframe-width-90 iframe{ width: 90%; height: 90%; }
+.lp-video.embed-responsive.iframe-width-80 iframe{ width: 80%; height: 80%; }
+.lp-video.embed-responsive.iframe-width-70 iframe{ width: 70%; height: 70%; }
+.lp-video.embed-responsive.iframe-width-60 iframe{ width: 60%; height: 60%; }
+.lp-video.embed-responsive.iframe-width-50 iframe{ width: 50%; height: 50%; }
+.lp-video.embed-responsive.iframe-width-40 iframe{ width: 40%; height: 40%; }
+.lp-video.embed-responsive.iframe-width-30 iframe{ width: 30%; height: 30%; }
+.lp-video.embed-responsive.iframe-width-20 iframe{ width: 20%; height: 20%; }
+.lp-video.embed-responsive.iframe-width-10 iframe{ width: 10%; height: 10%; }
+
+
+/* Video Media Queries
+-------------------------------------*/
+///* Desktops devices (desktops, 1200px and down)*/
+//////////////////////////////////////////////////////////////////////////
+//@media (max-width: 1200px) {}
+//
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 992px) {  }
+//
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) {  }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 480px) {
+  .embed-responsive {
+    overflow: visible;
+  }
+}

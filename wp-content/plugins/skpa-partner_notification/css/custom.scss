@@ -1,0 +1,218 @@
+select {
+    width: 100%;
+    max-width: 300px;
+}
+.title-container {
+    max-width: 600px;
+    margin: 0 auto;
+
+    input {
+        width: 100%;
+        padding: 1rem;
+        font-size: .88rem;
+        font-weight: bold;
+    }
+}
+.questions {
+    &-title {
+        font-size: 2.5rem;
+    }
+    &-container {
+        text-align: center;
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 600px;
+        margin: 0 auto;
+
+        & > div {
+            flex: 1;
+            padding: 0.5rem;
+        }
+
+        input[type="radio"] {
+            display: none;
+            &:not(:disabled) ~ label {
+              cursor: pointer;
+            }
+            &:disabled ~ label {
+              color: hsla(150, 5%, 75%, 1);
+              border-color: hsla(150, 5%, 75%, 1);
+              box-shadow: none;
+              cursor: not-allowed;
+            }
+          }
+          label {
+            height: 100%;
+            display: block;
+            background: white;
+            border: #ccc solid 2px;
+            border-radius: 5px;
+            padding: .5rem 1rem;
+            margin-bottom: 0;
+            text-align: center;
+            position: relative;
+
+            h2 {
+                font-weight: 900;
+                font-size: 1.25rem;
+            }
+            p {
+                font-weight: 400;
+                margin-bottom: 0px;
+                font-size: .78rem;
+            }
+          }
+          input[type="radio"]:checked + label {
+            background: #1E757C;
+            color: hsla(215, 0%, 100%, 1);
+            &::after {
+                display: none;
+            }
+          }
+    }
+}
+
+.steps-container {
+    text-align: center;
+    margin-top: 2rem;
+
+    .btn {
+        text-shadow: none;
+        font-weight: 600;
+        font-size: .88rem;
+        border:0;
+        border-radius: 0;
+        padding: 8px 10px;
+
+        &-primary {
+            background: #CFDD28;
+            &:hover {
+                background: #BEC949;
+            }
+        }
+        &-secondary {
+            background: #616161;
+            color: white !important;
+            &:hover {
+                background: #444;
+                border: 0;
+                transition: .3s ease-in-out
+            }
+        }
+
+        &-danger {
+            background: crimson;
+            color: white !important;
+            &:hover {
+                background: #444;
+                border: 0;
+                transition: .3s ease-in-out;
+            }
+        }
+    }
+}
+
+.buttons-container {
+    text-align: center; 
+
+    .btn {
+        text-shadow: none;
+        font-weight: 600;
+        font-size: .88rem;
+        border:0;
+        border-radius: 0;
+        margin-bottom: 1rem;
+        border-bottom: #616161 solid 4px;
+
+        &:hover {
+            border: 0;
+            transition: .3s ease-in-out;
+            border-bottom: #BEC949 solid 4px;
+        }
+
+        &-primary {
+            background: #CFDD28;
+            &:hover {
+                background: #BEC949;
+            }
+        }
+        &-secondary {
+            background: #616161;
+            color: white !important;
+            border-bottom: #444 solid 4px;
+            &:hover {
+                background: #444;
+                border-bottom: #616161 solid 4px;
+            }
+        }
+    }
+}
+
+.recommendations-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f3f3f3;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+
+    &.primary {
+        .recommendations-title {
+            background: #BEC949;
+            margin: -1.5rem -1.5rem 1rem;
+            padding: 1.5rem;
+            color: white;
+
+            h2 {
+                margin-bottom: 0;
+                font-size: 1.25rem;
+            }
+        }
+    }
+
+    &.secondary {
+        .recommendations-title {
+            background: #8e8e8e;
+            margin: -1.5rem -1.5rem 1rem;
+            padding: 1.5rem;
+            color: white;
+
+            h2 {
+                margin-bottom: 0;
+                font-size: 1.25rem;
+            }
+        }
+    }
+
+    .description-container {
+        h4 {
+            font-weight: bold;
+        }
+    }
+
+    .btn {
+        text-shadow: none;
+        font-weight: 600;
+        font-size: .88rem;
+        border:0;
+        border-radius: 0;
+        margin-bottom: 1rem;
+        border-bottom: #616161 solid 4px;
+
+        &:hover {
+            border-bottom: #BEC949 solid 4px;
+        }
+
+        &-primary {
+            background: #CFDD28;
+            &:hover {
+                background: #BEC949;
+            }
+        }
+        &-secondary {
+            background: #616161;
+            &:hover {
+                background: #444;
+            }
+        }
+    }
+}

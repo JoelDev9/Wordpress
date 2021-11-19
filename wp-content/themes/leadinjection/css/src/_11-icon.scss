@@ -1,0 +1,403 @@
+// 11. Icons
+/*------------------------------------------------------------------------------------------*/
+/* 11. Icons */
+/*------------------------------------------------------------------------------------------*/
+
+/* Icons Mixin
+-------------------------------------*/
+@mixin icon-color($color, $text_color) {
+  color: $color;
+  a {
+    color: $color;
+  }
+
+  &.round {
+    color: $text_color;
+    background-color: $color;
+    a {
+      color: $text_color;
+    }
+    &.outline {
+      color: $color;
+      background-color: transparent;
+      border-color: $color;
+      a {
+        color: $color;
+      }
+    }
+  }
+
+  &.square {
+    color: $text_color;
+    background-color: $color;
+    a {
+      color: $text_color;
+    }
+    &.outline {
+      color: $color;
+      background-color: transparent;
+      border-color: $color;
+      a {
+        color: $color;
+      }
+    }
+  }
+
+
+  &.underline {
+    background-color: $text_color;
+    border-color: $color;
+    a {
+      color: $color;
+    }
+  }
+
+  &:hover {
+    &.round {
+      color: $color;
+      border-color: $color;
+      background-color: $text_color;
+      a {
+        color: $color;
+      }
+      &.outline {
+        color: $text_color ;
+        background-color: $color;
+        border-color: $color;
+        a {
+          color: $text_color;
+        }
+      }
+    }
+
+    &.square {
+      color: $color;
+      border-color: $color;
+      background-color: $text_color;
+      a {
+        color: $color;
+      }
+
+      &.outline {
+        color: $text_color ;
+        background-color: $color;
+        border-color: $color;
+        a {
+          color: $text_color;
+        }
+      }
+    }
+
+  }
+}
+
+/* Icon
+-------------------------------------*/
+.li-icon {
+  text-align: center;
+
+  a{
+    display: inline-block;
+  }
+
+  .li-icon-sign {
+    text-align: center;
+    color: $color1;
+    font-size: 72px;
+    display: inline-block;
+    transition: all 0.2s ease;
+
+    &.big {
+      margin-bottom: 35px;
+      font-size: 120px;
+      transition: all 0.2s ease;
+      color: $color1;
+      a {
+        color: $color1;
+      }
+
+      &:hover {
+        &.big {
+          transform: rotate(10deg);
+          font-size: 100px;
+          color: $color1;
+        }
+      }
+    }
+
+    &.round {
+      width: 125px;
+      height: 125px;
+      color: $color0;
+      border-radius: 63px;
+      background-color: $color1;
+      border: 3px solid $color0;
+      line-height: 120px;
+      transition: all 0.8s ease;
+      a {
+        color: $color0;
+      }
+
+      &:hover{
+        color: $color1;
+        border-color: $color1;
+        background-color: $color0;
+        a {
+          color: $color1;
+        }
+      }
+    }
+
+    &.square {
+      width: 125px;
+      height: 125px;
+      color: $color0;
+      background-color: $color1;
+      border: 3px solid $color0;
+      line-height: 120px;
+      transition: all 0.8s ease;
+      a {
+        color: $color0;
+      }
+
+      &:hover{
+        color: $color1;
+        border-color: $color1;
+        background-color: $color0;
+        a {
+          color: $color1;
+        }
+      }
+    }
+
+    &.outline {
+      border: 3px solid $color1;
+      transition: all 0.8s ease;
+      color: $color1;
+      a {
+        color: $color1;
+      }
+    }
+
+    &.underline {
+      width: 125px;
+      height: 125px;
+      border-bottom: 2px solid $color1;
+      transition: all 0.2s ease;
+      color: $color1;
+      a {
+        color: $color1;
+      }
+
+      &:hover {
+        &.underline {
+          font-size: 90px;
+        }
+      }
+    }
+
+    &.rounded {
+      border-radius: 10px;
+      width: 125px;
+      height: 125px;
+      color: $color0;
+      background-color: $color1;
+      border: 3px solid $color0;
+      line-height: 120px;
+      transition: all 0.8s ease;
+      a {
+        color: $color0;
+      }
+
+      &:hover{
+        color: $color1;
+        border-color: $color1;
+        background-color: $color0;
+        a {
+          color: $color1;
+        }
+      }
+    }
+
+    /* Icons Size
+    -------------------------------------*/
+    &.x05 {
+      font-size: 36px;
+      border-width: 2px;
+
+      &.round {
+        font-size: 30px;
+        width: 62px;
+        height: 62px;
+        line-height: 59px;
+      }
+
+      &.square {
+        font-size: 30px;
+        width: 62px;
+        height: 62px;
+        line-height: 55px;
+      }
+
+      &.underline {
+        font-size: 30px;
+        width: 62px;
+        height: 62px;
+        line-height: 55px;
+      }
+
+      &.rounded {
+        font-size: 30px;
+        width: 62px;
+        height: 62px;
+        line-height: 55px;
+      }
+
+      &:hover {
+        &.big { font-size: 48px; }
+        &.underline { font-size: 42px; }
+      }
+    }
+
+
+    &.x07 {
+      font-size: 50px;
+      border-width: 2px;
+
+      &.round {
+        font-size: 48px;
+        width: 87px;
+        height: 87px;
+        line-height: 86px;
+      }
+
+      &.square {
+        font-size: 48px;
+        width: 87px;
+        height: 87px;
+        line-height: 86px;
+      }
+
+      &.underline {
+        font-size: 48px;
+        width: 87px;
+        height: 87px;
+        line-height: 86px;
+      }
+
+      &.rounded {
+        font-size: 48px;
+        width: 87px;
+        height: 87px;
+        line-height: 86px;
+      }
+
+      &:hover {
+        &.big { font-size: 60px; }
+        &.underline { font-size: 54px; }
+      }
+    }
+
+    &.x12 {
+      font-size: 86px;
+      border-width: 3px;
+
+      &.round {
+        font-size: 86px;
+        width: 150px;
+        height: 150px;
+        line-height: 146px;
+        border-radius: 150px;
+      }
+
+      &.square {
+        font-size: 86px;
+        width: 150px;
+        height: 150px;
+        line-height: 149px;
+
+      }
+
+      &.underline {
+        font-size: 86px;
+        width: 150px;
+        height: 150px;
+        line-height: 149px;
+      }
+
+      &.rounded {
+        font-size: 86px;
+        width: 150px;
+        height: 150px;
+        line-height: 149px;
+      }
+
+      &:hover {
+        &.big { font-size: 96px; }
+        &.underline { font-size: 90px; }
+      }
+    }
+
+    &.x15 {
+      font-size: 108px;
+      border-width: 3px;
+
+      &.round {
+        font-size: 108px;
+        width: 187px;
+        height: 187px;
+        line-height: 180px;
+        border-radius: 187px;
+      }
+
+      &.square {
+        font-size: 108px;
+        width: 187px;
+        height: 187px;
+        line-height: 187px;
+
+      }
+
+      &.underline {
+        font-size: 108px;
+        width: 187px;
+        height: 187px;
+        line-height: 187px;
+      }
+
+      &.rounded {
+        font-size: 108px;
+        width: 187px;
+        height: 187px;
+        line-height: 187px;
+      }
+
+      &:hover {
+        &.big { font-size: 124px; }
+        &.underline { font-size: 118px; }
+      };
+    }
+  }
+
+}
+
+///* Icons Media Queries
+//-------------------------------------*/
+///* Desktops devices (desktops, 1200px and down)*/
+//////////////////////////////////////////////////////////////////////////
+//@media (max-width: 1200px) {  }
+//
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 992px) {  }
+//
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) {  }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }
+
+
+

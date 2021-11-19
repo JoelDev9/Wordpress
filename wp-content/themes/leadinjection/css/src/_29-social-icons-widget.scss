@@ -1,0 +1,109 @@
+// 29. Global Social Icons Widget
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/* 29. Global Social Icons Widget */
+/*------------------------------------------------------------------------------------------*/
+
+.li-global-social-icons-widget{
+  a{
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    display: block;
+    float: left;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 3px;
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 5px;
+
+    &:hover{
+      color: #fff;
+    }
+
+    &.li-facebook{
+      background-color: #3c5a9a;
+    }
+
+    &.li-twitter{
+      background-color: #55acee;
+    }
+
+    &.li-google-plus{
+      background-color: #dd4b39;
+    }
+
+    &.li-youtube{
+      background-color: #bb0000;
+    }
+
+    &.li-vimeo{
+      background-color: #99aabb;
+    }
+
+    &.li-linkedin{
+      background-color: #007bb5;
+    }
+
+    &.li-tumblr{
+      background-color: #32506d;
+    }
+
+    &.li-pinterest{
+      background-color: #cb2027;
+    }
+
+    &.li-skype{
+      background-color: #12a5f4;
+    }
+
+    &.li-dribbble{
+      background-color: #ea4c89;
+    }
+
+    &.li-behance{
+      background-color: #1769ff;
+    }
+
+    &.li-flickr{
+      background-color: #ff0084;
+    }
+
+    &.li-instagram{
+      background-color: #125688;
+    }
+
+    &.li-deviantart{
+      background-color: #4e6252;
+    }
+
+    &.li-digg{
+      background-color: #356AA0;
+    }
+
+    &.li-reddit{
+      background-color: #ff5700;
+    }
+
+
+  }
+}
+
+/* Global Social Icon Widget Media Queries
+-------------------------------------*/
+///* Desktops devices (desktops, 1200px and down)*/
+//////////////////////////////////////////////////////////////////////////
+//@media (max-width: 1200px) {}
+//
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 992px) {  }
+//
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) {  }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

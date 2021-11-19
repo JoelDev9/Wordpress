@@ -1,0 +1,138 @@
+// 30. Responsive Helper
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/* 30. Responsive Helper */
+/*------------------------------------------------------------------------------------------*/
+
+/* Desktops devices (desktops, 1200px and down)*/
+////////////////////////////////////////////////////////////////////////////
+
+  .content-left-lg{
+    text-align: left !important;
+    p[style]{
+      text-align: left !important;
+    }
+  }
+
+  .content-center-lg{
+    text-align: center !important;
+    p[style]{
+      text-align: center !important;
+    }
+  }
+
+  .content-right-lg{
+    text-align: right !important;
+    p[style]{
+      text-align: right !important;
+    }
+  }
+
+  .pull-left-lg{
+    float: left !important;
+  }
+
+  .pull-right-lg{
+    float: right !important;
+  }
+
+
+
+/* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 992px) {
+  .content-left-md{
+    text-align: left !important;
+    p[style]{
+      text-align: left !important;
+    }
+  }
+
+  .content-center-md{
+    text-align: center !important;
+    p[style]{
+      text-align: center !important;
+    }
+  }
+
+  .content-right-md{
+    text-align: right !important;
+    p[style]{
+      text-align: right !important;
+    }
+  }
+
+  .pull-left-md{
+    float: left !important;
+  }
+
+  .pull-right-md{
+    float: right !important;
+  }
+}
+
+/* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 768px) {
+  .content-left-sm{
+    text-align: left !important;
+    p[style]{
+      text-align: left !important;
+    }
+  }
+
+  .content-center-sm{
+    text-align: center !important;
+    p[style]{
+      text-align: center !important;
+    }
+  }
+
+  .content-right-sm{
+    text-align: right !important;
+    p[style]{
+      text-align: right !important;
+    }
+  }
+
+  .pull-left-sm{
+    float: left !important;
+  }
+
+  .pull-right-sm{
+    float: right !important;
+  }
+}
+
+/* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 480px) {
+  .content-left-xs{
+    text-align: left !important;
+    p[style]{
+      text-align: left !important;
+    }
+  }
+
+  .content-center-xs{
+    text-align: center !important;
+    p[style]{
+      text-align: center !important;
+    }
+  }
+
+  .content-right-xs{
+    text-align: right !important;
+    p[style]{
+      text-align: right !important;
+    }
+  }
+
+  .pull-left-xs{
+    float: left !important;
+  }
+
+  .pull-right-xs{
+    float: right !important;
+  }
+}

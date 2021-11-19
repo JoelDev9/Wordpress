@@ -1,0 +1,58 @@
+// 39. Mobil Contact Bar
+/*------------------------------------------------------------------------------------------*/
+/* 39. Mobil Contact Bar */
+/*------------------------------------------------------------------------------------------*/
+
+.li-mobile-contact-bar{
+  height: 60px;
+
+  .li-mobile-contact-bar-button{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    background-color: red;
+    font-weight: bold;
+    font-size: 18px;
+    z-index: 100;
+  }
+
+  .li-mobile-contact-bar-button a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .li-mobile-contact-bar-button a i{
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: sub;
+  }
+
+}
+
+
+///* Mobil Contact Bar Media Queries
+//-------------------------------------*/
+///* Desktops devices (desktops, 1200px and down)*/
+//////////////////////////////////////////////////////////////////////////
+//@media (max-width: 1200px) {}
+//
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 992px) {  }
+//
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) {  }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

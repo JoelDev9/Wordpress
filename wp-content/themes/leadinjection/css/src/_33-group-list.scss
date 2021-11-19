@@ -1,0 +1,46 @@
+// 33. Group List
+/*------------------------------------------------------------------------------------------*/
+/* 33. Group List */
+/*------------------------------------------------------------------------------------------*/
+
+
+.li-list-group{
+  margin: 0;
+
+  .list-group-item{
+    padding: 8px 15px;
+    border: 1px solid $color5;
+  }
+
+  .list-group-item_active{
+    background-color: $color4;
+    font-weight: bold;
+    color: $color3;
+  }
+  
+  .badge{
+    background-color: $color3;
+    margin-top: 5px;
+  }
+}
+
+
+
+
+///* Group List Media Queries
+//-------------------------------------*/
+///* Desktops devices (desktops, 1200px and down)*/
+//////////////////////////////////////////////////////////////////////////
+//@media (max-width: 1200px) {}
+//
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 992px) {  }
+//
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) {  }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

@@ -1,0 +1,168 @@
+// 19. Pricing Table Simple
+/*------------------------------------------------------------------------------------------*/
+/* 19. Pricing Table Simple */
+/*------------------------------------------------------------------------------------------*/
+
+.pricing-table{
+  text-align: center;
+
+  .pricing-table-col{
+    border-radius: 6px;
+    margin-top: 20px;
+    vertical-align: top;
+    min-height: 400px;
+    width: 380px;
+    border: 2px solid $color6;
+    display: inline-block;
+    padding: 20px 20px 40px 20px;
+    margin-right: -6px;
+    transition: all 0.2s ease-out;
+
+    &:last-of-type{
+      margin-right: 0;
+    }
+
+    .pricing-table-title{
+      font-size: 20px;
+      font-weight: 600;
+      margin: 40px auto 60px auto;
+    }
+
+    .pricing-table-price{
+      color: $color1;
+      margin: 30px auto;
+      line-height: 28px;
+
+
+      .currency{
+        vertical-align: top;
+        font-size: 24px;
+
+      }
+
+      .price{
+        font-size: 100px;
+        font-weight: bold;
+      }
+
+      .terms{
+        font-size: 24px;
+      }
+    }
+
+    .pricing-table-description{
+      margin: 40px 0;
+    }
+
+    &.highlight{
+      z-index: 10;
+      position: relative;
+      border: none;
+      padding: 40px 20px 60px 20px;
+      margin-top: 0;
+      background-color: $color1;
+      color: $color0 !important;
+      .pricing-table-price{color: $color0 !important;}
+      .pricing-table-title{color: $color0 !important;}
+
+    }
+  }
+
+}
+
+
+/* Pricing Table Simple Media Queries
+-------------------------------------*/
+/* Desktops devices (desktops, 1200px and down)*/
+//////////////////////////////////////////////////////////////////////////
+@media (max-width: 1200px) {
+  .pricing-table{
+    font-size: 16px / 100 * $scale1200;
+
+    .pricing-table-col{
+      //border-radius: 6px;
+      margin-top: 20px / 100 * $scale1200;
+      vertical-align: top;
+      //min-height: 380px;
+      width: 313px;
+      // border: 2px solid $color1;
+      //display: inline-block;
+      padding: 10px 20px 40px 20px;
+
+      +.pricing-table-col{
+        margin-left: -2px;
+      }
+
+      .pricing-table-title{
+        font-size: 20px / 100 * $scale1200;
+        font-weight: 600;
+        margin: 40px auto 60px auto;
+      }
+
+      .pricing-table-price{
+        color: $color1;
+        margin: 30px auto;
+        line-height: 28px;
+
+
+        .currency{
+          vertical-align: top;
+          font-size: 24px / 100 * $scale1200;
+
+        }
+
+        .price{
+          font-size: 100px / 100 * $scale1200;
+          font-weight: bold;
+        }
+
+        .terms{
+          font-size: 24px / 100 * $scale1200;
+        }
+      }
+
+      .pricing-table-description{
+        margin: 40px 0;
+      }
+
+      &.highlight{
+        padding: 30px 20px 60px 20px;
+        margin-top: 0;
+        background-color: $color1;
+        color: $default-title-color;
+        .pricing-table-price{color: $color0;}
+
+      }
+    }
+
+  }
+}
+
+/* Medium devices (desktops, 992px and down) */
+//////////////////////////////////////////////////////////////////////////
+@media (max-width: 992px) {
+  .pricing-table{
+
+    .pricing-table-col{
+      display: block;
+      margin: 0 auto 20px;
+      width: 80%;
+      +.pricing-table-col{
+        margin-left: auto;
+      }
+
+      &:last-of-type {
+        margin-right: auto;
+      }
+
+    }
+  }
+}
+
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) { }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

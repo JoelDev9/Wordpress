@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="231px" height="69px" viewBox="0 0 231 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Button Google Play</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing-Page-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-846.000000, -5463.000000)">
+        <g id="Group-13" transform="translate(174.000000, 5220.000000)">
+            <g id="Button-Google-Play" transform="translate(672.000000, 243.000000)">
+                <rect id="Rectangle-9" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="229" height="67" rx="6"></rect>
+                <g id="Group-14" transform="translate(39.000000, 15.000000)">
+                    <text id="Description-Copy" font-family="Roboto-Regular, Roboto" font-size="12.1000003" font-weight="normal" fill="#DDE0E5">
+                        <tspan x="48.400001" y="11">Get it on</tspan>
+                    </text>
+                    <text id="Description-Copy-2" font-family="Roboto-Bold, Roboto" font-size="16.5000004" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="48.400001" y="32.6000004">Google Play</tspan>
+                    </text>
+                    <path d="M1.0062318,36.4801542 C0.396725926,36.3159782 0,35.7108471 0,34.7744344 L0,3.86482523 C0,2.99756428 0.335913656,2.41265996 0.868401707,2.20000005 L0.868401707,2.20000005 L16.0580199,19.425486 L1.0062318,36.4801542 L1.0062318,36.4801542 Z M3.0971919,35.8240422 L21.3806985,25.4615644 L16.9274906,20.4114921 L3.0971919,35.8240422 L3.0971919,35.8240422 Z M21.5066003,13.2518852 L3.47789412,3.03144476 L16.9538529,18.4104482 L21.5066003,13.2518852 L21.5066003,13.2518852 Z M22.7298334,13.9453338 L29.7924878,17.9491396 C31.1297168,18.7072123 31.1419458,19.9292171 29.7924878,20.6940446 L22.5511552,24.7981889 L17.8279644,19.4079998 L22.7298334,13.9453338 L22.7298334,13.9453338 Z" id="google-play" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,122 @@
+// 15. Modal
+/*------------------------------------------------------------------------------------------*/
+/* 15. Modal */
+/*------------------------------------------------------------------------------------------*/
+
+.li-modal{
+
+  //overflow: hidden !important;
+
+  .container{
+    width: 1170px;
+    max-width: 100%;
+  }
+
+  &.fade{
+    opacity:1;
+  }
+
+  &.fade .modal-dialog {
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    transform: translate(0);
+  }
+
+  .modal-dialog{
+    width: auto !important;
+    max-width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    .modal-content{
+      border-radius: 0px;
+      border: none;
+
+      .li-animate{
+        animation-delay: 0.7s
+      }
+
+      .vc_row{
+        max-width: 600px;
+      }
+
+      .vc_row-no-padding{
+        margin-left:0;
+        margin-right:0;
+        left: 0 !important;
+      }
+
+      .vc_row-o-full-height{
+        min-height: 100vh !important;
+      }
+
+      .close{
+        font-size: 30px;
+        position: absolute;
+        right: 10px;
+        top: 3px;
+        z-index: 10;
+      }
+
+      .modal-body{
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+      }
+    }
+
+  }
+
+
+}
+
+///* Modal Media Queries
+//-------------------------------------*/
+///* Desktops devices (desktops, 1200px and down)*/
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 1200px) {  }
+//
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 992px) {
+  .vc_row.vc_row-flex {
+    justify-content: center;
+  }
+}
+
+/* Small devices (768px and down) */
+//////////////////////////////////////////////////////////////////////////
+@media (max-width: 768px) {
+
+  .li-modal{
+     padding: 0 !important;
+   }
+
+  .li-modal .container,
+  .li-modal .container-fluid{
+    padding: 0;
+  }
+
+  .li-modal .modal-dialog {
+    //width: auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .li-modal .modal-dialog .modal-content .vc_row {
+    width: auto !important;
+    max-width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .vc_row.vc_row-flex {
+    justify-content: flex-start ;
+  }
+
+}
+
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

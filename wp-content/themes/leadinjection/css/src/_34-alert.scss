@@ -1,0 +1,248 @@
+// 34. Alert
+/*------------------------------------------------------------------------------------------*/
+/* 34. Alert */
+/*------------------------------------------------------------------------------------------*/
+
+/* Alert
+-------------------------------------*/
+.li-alert{
+  margin-bottom: 0;
+  padding: 11px 10px 8px 10px;
+
+  .alert-icon{
+    display: inline-block;
+    margin-right: 12px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+
+  .alert-content{
+    display: inline-block;
+    p{
+      margin-bottom: 0;
+      line-height: 1;
+    }
+  }
+
+  .close{
+    opacity: 1;
+    font-weight: 900;
+  }
+
+  &.li-alert_success{
+    background-color: #F3FAF8;
+    border-color: #BFD1CF;
+    color: #09A699;
+    .close{
+      color: #09A699;
+    }
+  }
+
+  &.li-alert_info{
+    background-color: #EBF6FB;
+    border-color: #BFD4DE;
+    color: #0090D9;
+    .close{
+      color: #0090D9;
+    }
+  }
+
+  &.li-alert_warning{
+    background-color: #FFFCEE;
+    border-color: #F0DBB4;
+    color: #FDB81C;
+    .close{
+      color: #FDB81C;
+    }
+  }
+
+  &.li-alert_danger{
+    background-color: #FFF6F4;
+    border-color: #F8CDCD;
+    color: #F15857;
+    .close{
+      color: #F15857;
+    }
+  }
+}
+
+/* Alert Light Color
+-------------------------------------*/
+
+.li-alert_light-color{
+  margin-bottom: 0;
+  padding: 0px;
+  height: 74px;
+
+  .alert-icon{
+    display: block;
+    float: left;
+    width: 72px;
+    height: 72px;
+    text-align: center;
+    font-size: 36px;
+    border-right: 1px solid;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    margin-right: 20px;
+
+    span, i{
+      line-height: 72px;
+    }
+  }
+
+  .alert-content{
+    display: block;
+    margin-top: 30px;
+
+    p{
+      margin-bottom: 0;
+      line-height: 1;
+    }
+  }
+
+  .close{
+    margin-top: 25px;
+    margin-right: 25px;
+    opacity: 1;
+    font-weight: 900;
+  }
+
+  &.li-alert_success{
+    border-color: #09A699;
+    color: #09A699;
+
+    .alert-icon{
+      background-color: #F3FAF8;
+    }
+
+    .close{
+      color: #09A699;
+    }
+  }
+
+  &.li-alert_info{
+    border-color: #0090D9;
+    color: #0090D9;
+
+    .alert-icon{
+      background-color: #EBF6FB;
+    }
+
+    .close{
+      color: #0090D9;
+    }
+  }
+
+  &.li-alert_warning{
+    border-color: #FDB81C;
+    color: #FDB81C;
+
+    .alert-icon{
+      background-color: #FFFCEE;
+    }
+
+    .close{
+      color: #FDB81C;
+    }
+  }
+
+  &.li-alert_danger{
+    border-color: #F15857;
+    color: #F15857;
+
+    .alert-icon{
+      background-color: #FFF6F4;
+    }
+
+    .close{
+      color: #F15857;
+    }
+  }
+}
+
+
+/* Alert Solid Color
+-------------------------------------*/
+
+.li-alert_solid-color{
+  margin-bottom: 0;
+  padding: 0px;
+  height: 74px;
+
+  .alert-icon{
+    display: block;
+    float: left;
+    width: 72px;
+    height: 72px;
+    text-align: center;
+    font-size: 36px;
+    color: $color0;
+
+    span, i{
+      line-height: 72px;
+    }
+  }
+
+  .alert-content{
+    display: block;
+    margin-top: 30px;
+    color: $color0;
+
+    p{
+      margin-bottom: 0;
+      line-height: 1;
+    }
+  }
+
+  .close{
+    margin-top: 25px;
+    margin-right: 25px;
+    opacity: 1;
+    color: $color0;
+    font-weight: 900;
+  }
+
+  &.li-alert_success{
+    background-color: #09A699;
+  }
+
+  &.li-alert_info{
+    background-color: #0090D9;
+  }
+
+  &.li-alert_warning{
+    background-color: #FDB81C;
+  }
+
+  &.li-alert_danger{
+    background-color: #F15857;
+  }
+}
+
+
+
+
+//.container-fluid .li-alert{
+//  border-radius: 0;
+//}
+
+
+
+///* Alert Media Queries
+//-------------------------------------*/
+///* Desktops devices (desktops, 1200px and down)*/
+//////////////////////////////////////////////////////////////////////////
+//@media (max-width: 1200px) {}
+//
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 992px) {  }
+//
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) {  }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

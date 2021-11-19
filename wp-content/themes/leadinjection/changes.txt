@@ -1,0 +1,294 @@
+01.06.2021 - ver 2.3.14
+  - Update: WPBakery Visual Composer plugin to Version 6.6.0
+  - Update: Redux Framework plugin to Version 4.1.29
+  - Update: Slider Revolution plugin to Version 6.5.3
+  - Update: Contact Form 7 plugin to Version 5.4.1  
+  - Fixed: minor bug fixes
+
+13.10.2020 - ver 2.3.13
+  - Update: WPBakery Visual Composer plugin to Version 6.4.1
+  - Update: Slider Revolution plugin to Version 6.2.23
+  - Update: Contact Form 7 plugin to Version 5.2.2  
+  - Update: Mega Main Menu plugin to Version 2.2.1
+  - Fixed: minor bug fixes
+
+25.08.2020 - ver 2.3.12
+  - Update: WPBakery Visual Composer plugin to Version 6.3.0
+  - Update: Slider Revolution plugin to Version 6.2.22
+  - Update: SVG Support plugin Version 2.3.18
+  - Update: Redux Framework plugin to Version 3.6.18
+  - Update: Contact Form 7 plugin to Version 5.2.1‚ 
+  - Fixed: minor bug fixes
+
+07.02.2020 - ver 2.3.11
+  - Update: Slider Revolution plugin to Version 6.1.8
+  - Update: SVG Support plugin Version 2.3.17
+  - Update: Redux Framework plugin to Version 3.6.17
+  - Fixed: minor bug fixes
+
+02.01.2020 - ver 2.3.10
+  - Update: WPBakery Visual Composer plugin to Version 6.1.0
+  - Update: Contact Form 7 plugin to Version 5.1.6
+  - Fixed: minor bug fixes
+
+21.11.2019 - ver 2.3.9
+  - Update: Slider Revolution plugin to Version 6.1.5
+  - Update: WPBakery Visual Composer plugin to Version 6.0.5
+  - Update: Contact Form 7 plugin to Version 5.1.5
+  - Update: Redux Framework plugin to Version 3.6.16
+  - Update: WooCommerce templates
+  - Fixed: minor bug fixes
+
+15.07.2019 - ver 2.3.8
+  - Update: WooCommerce templates
+  - Fixed: minor bug fixes
+
+10.07.2019 - ver 2.3.7
+  - Update: Contact Form 7 plugin to Version 5.1.3
+  - Update: WPBakery Visual Composer plugin to Version 6.0.3
+  - Update: Mega Main Menu plugin to Version 2.2.0
+  - Fixed: minor bug fixes
+
+11.04.2019 - ver 2.3.6
+  - Update: WPBakery Visual Composer plugin to Version 5.7
+  - Update: Slider Revolution plugin to Version 5.4.8.3
+  - Update: Mega Main Menu plugin to Version 2.1.8
+  - Fixed: minor bug fixes
+
+15.01.2019 - ver 2.3.5
+  - Update: Contact Form 7 plugin to Version 5.1.1
+  - Update: Demo Content
+  - Update: WooCommerce templates
+  - Fixed: minor bug fixes
+
+07.12.2018 - ver 2.3.4
+  - Update: WPBakery Visual Composer plugin to Version 5.6
+  - Update: Slider Revolution plugin to Version 5.4.8.1
+  - Update: Redux Framework plugin to Version 3.6.15
+  - Fixed: minor bug fixes
+
+21.11.2018 - ver 2.3.3
+  - Update: Contact Form 7 plugin to Version 5.0.5
+  - Update: Redux Framework plugin to Version 3.6.14
+  - Fixed: minor bug fixes
+
+29.10.2018 - ver 2.3.2
+  - Update: WPBakery Visual Composer plugin to Version 5.5.5
+  - Modified: Before After Image
+  - Fixed: minor bug fixes
+
+20.09.2018 - ver 2.3.1
+  - Update: Contact Form 7 plugin to Version 5.0.4
+  - Update: WPBakery Visual Composer plugin to Version 5.5.4
+  - Fixed: minor bug fixes
+
+20.08.2018 - ver 2.3.0
+  - Update: Redux Framework to Version 3.6.11
+  - Modified: Icon Text Box
+  - Fixed: minor bug fixes
+
+31.07.2018 - ver 2.2.9
+  - Update: Contact Form 7 plugin to Version 5.0.3
+  - Fixed: minor bug fixes
+
+02.07.2018 - ver 2.2.8
+  - Update: Slider Revolution plugin to Version 5.4.8
+  - Update: WPBakery Visual Composer plugin to Version 5.5.2 (Gutenberg compatibility)
+  - Fixed: “Cryptocurrency” mobile menu background
+  - Fixed: minor bug fixes
+
+15.06.2018 - ver 2.2.7
+  - New: Added new landing page “Diet”
+  - Fixed: minor bug fixes
+
+23.05.2018 - ver 2.2.6
+  - Update: Slider Revolution plugin to Version 5.4.7.4
+  - Update: Contact Form 7 plugin to Version 5.0.2
+  - Update: Redux Framework plugin to Version 3.6.9
+  - Update: SVG Support plugin Version 2.3.15
+  - Fixed: minor bug fixes
+
+18.04.2018 - ver 2.2.5
+  - Update: Mega Main Menu plugin to Version 2.1.7
+  - Update: Slider Revolution plugin to Version 5.4.7.2
+  - Fixed: minor bug fixes
+
+13.03.2018 - ver 2.2.4
+  - Update: WPBakery Visual Composer plugin to Version 5.4.7
+  - Update: Mega Main Menu plugin to Version 2.1.6
+  - Update: Contact Form 7 plugin to Version 5.0.1
+  - Fixed: minor bug fixes
+
+26.02.2018 - ver 2.2.3
+  - New: Added new landing page “Cryptocurrency”
+  - New: Added new landing page “Landscape”
+  - New: Added new landing page “Business Coach”
+  - Add: New Footer Styles
+  - Add: New Advanced Pricing Table
+  - Add: Review Block
+  - Update: Slider Revolution plugin to Version 5.4.7.1
+  - Update: Contact Form 7 plugin to Version 5.0
+  - Modified: Side Icon Shortcode
+  - Fixed: minor bug fixes
+
+15.01.2018 - ver 2.2.2
+  - Update: WPBakery Visual Composer plugin to Version 5.4.5
+  - Update: Slider Revolution plugin to Version 5.4.6.4
+  - Update: Contact Form 7 plugin to Version 4.9.2
+  - Fixed: minor bug fixes
+
+24.11.2017 - ver 2.2.1
+  - Fixed: minor bug fixes
+
+18.11.2017 - ver 2.2.0
+   - Update: WPBakery Visual Composer plugin to Version 5.4.4
+   - Update: Slider Revolution plugin to Version 5.4.6.3.1
+   - Update: Contact Form 7 plugin to Version 4.9.1
+
+14.10.2017 - ver 2.1.9
+   - Update: WPBakery Visual Composer plugin to Version 5.4.2
+   - Update: Slider Revolution plugin to Version 5.4.6.1
+   - Update: Redux Framework plugin to Version 3.6.7.7
+
+18.09.2017 - ver 2.1.8
+   - Update: Contact Form 7 plugin to Version 4.9
+   - Update: WPBakery Visual Composer plugin to Version 5.3
+   - Update: Slider Revolution plugin to Version 5.4.6
+   - Update: SVG Support plugin Version 2.3.11
+
+16.08.2017 - ver 2.1.7
+   - Update: Contact Form 7 plugin to Version 4.8.1
+   - Update: WPBakery Visual Composer plugin to Version 5.2.1
+   - Modified: Side Icon Shortcode
+   - Modified: Countdown Shortcode
+   - Fixed: minor bug fixes
+
+17.07.2017 - ver 2.1.6
+   - New: Added new landing page “Move”
+   - Update: WPBakery Visual Composer plugin to Version 5.2
+   - Update: Slider Revolution plugin to Version 5.4.5
+   - Update: SVG Support plugin Version 2.3.9
+   - Update: Contact Form 7 plugin to Version 4.8
+   - Modified: Person Profile Shortcode
+   - Modified: Icon Shortcode
+   - Modified: Modal Shortcode
+   - Modified: Modal Shortcode
+   - Modified: Modal Post Type
+   - Fixed: minor bug fixes
+
+25.05.2017 - ver 2.0.5
+   - Update: SVG Support plugin Version 2.3.8
+   - Update: Slider Revolution plugin to Version 5.4.3.1
+   - Fixed: minor bug fixes
+
+24.05.2017 - ver 2.0.4
+   - Fixed: minor bug fixes
+
+19.05.2017 - ver 2.0.3
+   - New: Added new landing page "Insurance"
+   - Update: Redux Framework plugin to Version 3.6.5
+   - Modified: Lead Modal Shortcode
+   - Modified: Location Maps Shortcode
+   - Fixed: minor bug fixes
+
+26.04.2017 - ver 2.0.2
+   - Update: Slider Revolution plugin to Version 5.4.3
+   - Update: SVG Support plugin Version 2.3.8
+   - Add: Excerpt switch to blog options
+   - Modified: Feature Icon Text Shortcode
+   - Fixed: minor bug fixes
+
+18.04.2017 - ver 2.0.1
+   - Fixed: process bars IE10
+   - Update: WPBakery Visual Composer plugin to Version 5.1.1
+   - Fixed: minor bug fixes
+   - Update: SVG Support plugin Version 2.3.7
+
+27.03.2017 - ver 2.0.0
+   - Update: WPBakery Visual Composer plugin to Version 5.1
+   - Update: Redux Framework plugin to Version 3.6.4
+   - Update: Contact Form 7 plugin to Version 4.7
+   - Update: Slider Revolution plugin to Version 5.4.1
+   - Add: Mega Main Menu plugin Version 2.1.4
+   - Add: SVG Support plugin Version 2.3.6
+   - Add: Alerts Shortcode
+   - Add: Dividers Shortcode
+   - Add: Row Styles Options
+   - Add: Group List Shortcode
+   - Modified: Extend List Shortcode
+   - Modified: Extend Accordions Shortcode
+   - Modified: Tabs Shortcode
+   - Modified: Video Shortcode
+   - Modified: Maps Shortcode
+   - Modified: Extend Profiles Shortcode
+   - Add: Gallery Shortcode
+   - Add: Progress Bars Shortcode
+   - Add: Portfolio Shortcode
+   - Modified: Blog Layout and Sidebars
+   - Add: Post Formats Video Post, Quote Post, Gallery Post
+   - Add: Post Formats Image Post, Link Post, Audio Post
+   - Fixed: minor bug fixes
+
+28.09.2016 - ver 1.1.7
+   - Update: WPBakery Visual Composer plugin to Version 4.12.1
+   - Update: Redux Framework plugin to Version 3.6.2
+   - Update: Contact Form 7 plugin to Version 4.5.1
+
+12.08.2016 - ver 1.1.6
+   - New: Added new landing page "SEO Service"
+   - Modified: Icon Shortcode
+   - Add: Custom Button Styles
+   - Add: Added Page Topbar
+   - Add: Added Icons Solid Font (save $39)
+   - Fixed: Location map API issue
+   - Update: Contact Form 7 plugin to Version 4.5
+
+05.07.2016 - ver 1.1.5
+   - New: Added new landing page "eBook"
+   - Update: Slider Revolution plugin to Version 5.2.6
+   - Add: Responsive Helpers to short Codes
+   - Add: Back to Top Button
+   - Modified: plugin loading
+   - Modified: improve demo importer
+   - Fixed: blog page on-page options
+   - Fixed: minor bug fixes
+
+14.06.2016 - ver 1.1.4
+   - Update: WPBakery Visual Composer plugin to Version 4.12
+   - Update: Slider Revolution plugin to Version 5.2.5.3
+
+09.05.2016 - ver 1.1.3
+   - Update: Slider Revolution plugin to Version 5.2.5.1
+   - Update: Contact Form 7 plugin to Version 4.4.2
+   - Add: Linkedin icon to "person-profile" shortcode
+   - Fixed: minor bug fixes
+
+27.04.2016 - ver 1.1.2
+   - New: Added new landing page "Medical Services"
+   - Add: Animated “x” icon for the navbar-toggle
+   - Add: Font Weight settings to headings shortcode
+   - Add: Text Color settings to feature icon shortcode
+   - Modified: removed auto <script> tag from raw header and footer output
+   - Update: Redux Framework plugin to Version 3.6.0.2
+   - Fixed: minor bug fixes
+
+18.04.2016 - ver 1.1.1
+   - Update: WPBakery Visual Composer plugin to Version 4.11.2.1
+   - Update: Slider Revolution plugin to Version 5.2.5
+   - Update: Contact Form 7 plugin to Version 4.4.1
+   - Update: Redux Framework plugin to Version 3.6.0
+   - Fixed: minor bug fixes
+
+15.03.2016 - ver 1.1.0
+   - Update: WPBakery Visual Composer plugin to Version 4.11
+   - Update: Slider Revolution plugin to Version 5.2.2
+   - Added: block style to buttons shortcode
+   - Modified: video shortcode
+   - Modified: default plugin loading
+   - Modified: minor bug fixes
+
+03.03.2016 - ver 1.0.0
+   - New: Added new landing page “Application”
+   - New: Added new landing page “Conference”
+   - New: Added new landing page “Online Course”
+   - initial release

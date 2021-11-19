@@ -1,0 +1,156 @@
+// 28. Countdown
+/*------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+/* 28. Countdown */
+/*------------------------------------------------------------------------------------------*/
+
+.li-countdown {
+  color: $color1;
+
+  .li-countdown-block {
+    text-align: center;
+    display: inline-block;
+    margin-right: 17px;
+    width: 123px;
+    height: 123px;
+    padding-top: 20px;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  .li-countdown-counter {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  .li-countdown-label {
+    font-size: 14px;
+    margin-top: 2px;
+  }
+
+  &.line {
+    .li-countdown-block {
+      .li-countdown-counter {
+        border-bottom: 2px solid $color1;
+        padding-bottom: 8px;
+      }
+    }
+  }
+
+  &.box {
+    .li-countdown-block {
+      border: 2px solid $color1;
+    }
+  }
+
+  &.round {
+
+    .li-countdown-block {
+      border: 2px solid $color1;
+      border-radius: 90px;
+    }
+
+    .li-countdown-label {
+      margin-top: 0;
+    }
+  }
+
+}
+
+/* Countdown Media Queries
+-------------------------------------*/
+/* Desktops devices (desktops, 1200px and down)*/
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 1200px) {
+
+  .li-countdown{
+
+    .li-countdown-block{
+      margin-right: 15px;
+      width: 100px;
+      height: 100px;
+      padding-top: 15px;
+    }
+
+    .li-countdown-counter{
+      font-size: 40px;
+    }
+
+    .li-countdown-label{
+      font-size: 12px;
+      margin-top: 0;
+    }
+
+    &.line{
+      .li-countdown-block{
+        .li-countdown-counter{
+          padding-bottom: 8px
+        }
+      }
+    }
+
+    &.round{
+      .li-countdown-label{
+        margin-top: 0;
+      }
+    }
+  }
+
+}
+
+/* Headings Media Queries
+-------------------------------------*/
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 992px) {
+
+  .li-countdown{
+    .li-countdown-block{
+      margin-right: 10px;
+      width: 75px;
+      height: 75px;
+      padding-top: 10px;
+    }
+
+    .li-countdown-counter{
+      font-size: 28px;
+      line-height: 1;
+    }
+
+    .li-countdown-label{
+      font-size: 11px;
+      margin-top: 0;
+    }
+
+    &.line{
+      .li-countdown-block{
+        .li-countdown-counter{
+          padding-bottom: 8px
+        }
+      }
+    }
+
+    &.round{
+      .li-countdown-block{
+        padding-top: 12px;
+      }
+      .li-countdown-counter{
+        line-height: 0.8;
+      }
+      .li-countdown-label{
+        margin-top: 0;
+      }
+    }
+  }
+
+}
+
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) {  }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

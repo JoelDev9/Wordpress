@@ -1,0 +1,32 @@
+{
+  "name": "leadinjection",
+  "version": "0.0.0",
+  "authors": [
+    "themeinjection <mail@themeinjection.com>"
+  ],
+  "description": "leadinjection landing page theme",
+  "license": "MIT",
+  "homepage": "leadinjection.themeinjection.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.7",
+    "fontawesome": "~4.7.0",
+    "waypoints": "~4.0.0",
+    "animate.css": "~3.5.2",
+    "open-iconic": "~1.1.1",
+    "progressbar.js": "~1.0.1",
+    "magnific-popup": "~1.1.0",
+    "jquery-animateNumber": "jquery-animatenumber#~0.0.14",
+    "jquery.countdown": "~2.2.0",
+    "respond": "Respond#^1.4.2",
+    "html5shiv": "^3.7.3",
+    "imagehover.css": "https://github.com/ciar4n/imagehover.css.git",
+    "twentytwenty": "https://github.com/zurb/twentytwenty.git"
+  }
+}

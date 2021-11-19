@@ -1,0 +1,114 @@
+/* ============================================================ *\
+
+  #MAIN
+
+  Theme Name:  Leadinjection
+  Theme URI:   http://leadinjection.io/
+  Author:      http://themeinjection.com/
+  Author URI:  http://themeinjection.com/
+  Description: Leadinjection was designed for professional marketeers, business owners and affiliates to launch landing pages within minutes.
+  Version:     2.3.14
+  License:     GNU General Public License v2 or later
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
+  Text Domain: leadinjection
+  Tags:        one-column, two-columns, right-sidebar, custom-header, custom-menu, editor-style, featured-images, translation-ready
+
+/* ============================================================ *\
+
+
+/**
+* CONTENTS
+* 
+* SRC
+*  01. Defaults
+*  02. Header
+*  03. Blog
+*  04. Widgets
+*  05. Footer
+*  06. Buttons
+*  07. Accordion
+*  08. Feature Icon Text
+*  09. Form Elements
+*  10. Headings
+*  11. Icons
+*  12. Icon List
+*  13. Image Testimonial Slider
+*  14. Image
+*  15. Modal
+*  16. Header
+*  17. Number Counter
+*  18. Person Profile
+*  19. Pricing Table Simple
+*  20. Rating Slider
+*  21. Side Icon Text
+*  22. Tabs
+*  23. Textblock
+*  24. Video
+*  25. Contactform 7
+*  26. Location Map
+*  27. Icon Text Box
+*  28. Countdown
+*  29. Global Social Icons Widget
+*  30. Responsive Helper
+*  31. Top Widget Bar
+*  32. Mega Main Menu
+*  33. Group List
+*  34. Alert
+*  35. Divider
+*  36. Image Gallery
+*  37. Progress Bar
+*  38. Portfolio
+*  39. Mobil Contact Bar
+*  40. WooCommerce
+*  41. Textblock
+*  42. Pricing Table Advanced
+*  Helper Classes
+*
+*/
+
+
+
+
+@import "src/_01-defaults.scss";
+@import "src/_02-navigation.scss";
+@import "src/_03-blog.scss";
+@import "src/_04-widgets.scss";
+@import "src/_05-footer.scss";
+@import "src/_06-button.scss";
+@import "src/_07-accordion.scss";
+@import "src/_08-featue-icon-text.scss";
+@import "src/_09-form-elements.scss";
+@import "src/_10-heading.scss";
+@import "src/_11-icon.scss";
+@import "src/_12-icon-list.scss";
+@import "src/_13-image-testimonial-slider.scss";
+@import "src/_14-image.scss";
+@import "src/_15-modal.scss";
+@import "src/_16-header.scss";
+@import "src/_17-number-counter.scss";
+@import "src/_18-person-profile.scss";
+@import "src/_19-pricing-table-simple.scss";
+@import "src/_20-rating-slider.scss";
+@import "src/_21-side-icon-text.scss";
+@import "src/_22-tabs.scss";
+@import "src/_23-textblock.scss";
+@import "src/_24-video.scss";
+@import "src/_25-contactform7.scss";
+@import "src/_26-location-map.scss";
+@import "src/_27-icon-text-box.scss";
+@import "src/_28-coundown.scss";
+@import "src/_29-social-icons-widget.scss";
+@import "src/_30-responsive-helper.scss";
+@import "src/_31-top-widget-bar.scss";
+@import "src/_32-mega-main-menu.scss";
+@import "src/_33-group-list.scss";
+@import "src/_34-alert.scss";
+@import "src/_35-divider.scss";
+@import "src/_36-image-gallery.scss";
+@import "src/_37-progress-bar.scss";
+@import "src/_38-portfolio.scss";
+@import "src/_39-mobile-contact-bar.scss";
+@import "src/_40-woocommerce.scss";
+@import "src/_41-review-block.scss";
+@import "src/_42-pricing-table-advanced.scss";
+@import "src/_x_helper.scss";

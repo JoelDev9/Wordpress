@@ -1,0 +1,505 @@
+// 06. Buttons
+/*------------------------------------------------------------------------------------------*/
+/* 06. Buttons */
+/*------------------------------------------------------------------------------------------*/
+
+/* Button Wrapper
+-------------------------------------*/
+.btn-wrapper{
+  &.inline{
+    display: inline-block;
+  }
+  &.left{
+    text-align: left;
+  }
+  &.center{
+    text-align: center;
+  }
+  &.right{
+    text-align: right;
+  }
+}
+
+/* Button Styles
+-------------------------------------*/
+.btn {
+  color: $color0;
+  background-color: $color1;
+  border-radius: 4px;
+  margin: 0;
+  &a{
+    color:#ffffff;
+  }
+
+  &:hover {
+    background-color: darken($color1, 7);
+    color: $color0;
+    transition: all 0.2s ease-out;
+  }
+
+  &:focus {
+    background-color: darken($color1, 20);
+    color: $color0;
+  }
+
+  &:visited {
+    color: $color0;
+  }
+
+  &.btn-3d {
+    border-bottom-color: darken($color1, 20);
+  }
+
+  &.btn-outline {
+    border-color: $color1;
+    color: $color1;
+
+    &:hover {
+      background-color: $color1;
+      color: $color0;
+    }
+  }
+
+  &.btn-sm {
+    font-size: 14px;
+    padding: 9px 22px 9px;
+    height: 41px;
+
+    &.btn-outline {
+      border: 2px solid;
+    }
+
+    &.btn-icon-left {
+      padding-left: 15px;
+      padding-right: 17px;
+      i {
+        font-size: 16px;
+        margin-right: 10px;
+      }
+    }
+
+    &.btn-icon-right {
+      padding-right: 15px;
+      padding-left: 17px;
+      i {
+        font-size: 16px;
+        margin-left: 10px;
+      }
+    }
+
+  }
+
+  &.btn-md {
+    font-size: 16px;
+    padding: 10px 26px 10px;
+    height: 45px;
+
+    &.btn-outline {
+      border: 2px solid;
+    }
+
+    &.btn-icon-left {
+      padding-left: 16px;
+      padding-right: 18px;
+      i {
+        font-size: 18px;
+        margin-right: 11px;
+      }
+    }
+
+    &.btn-icon-right {
+      padding-right: 16px;
+      padding-left: 18px;
+      i {
+        font-size: 18px;
+        margin-left: 11px;
+      }
+    }
+  }
+
+  &.btn-lg {
+    font-size: 20px;
+    padding: 10px 36px 11px;
+    height: 51px;
+
+    &.btn-outline {
+      border: 2px solid;
+    }
+
+    &.btn-icon-left {
+      padding-left: 18px;
+      padding-right: 20px;
+      i {
+        font-size: 22px;
+        margin-right: 13px;
+      }
+    }
+
+    &.btn-icon-right {
+      padding-right: 18px;
+      padding-left: 20px;
+      i {
+        font-size: 22px;
+        margin-left: 13px;
+      }
+    }
+
+  }
+
+  &.btn-xl {
+    font-size: 24px;
+    padding: 13px 36px 14px;
+    height: 60px;
+
+    &.btn-outline {
+      border: 3px solid;
+    }
+
+    &.btn-icon-left {
+      padding-left: 20px;
+      padding-right: 20px;
+      i {
+        font-size: 26px;
+        margin-right: 14px;
+      }
+    }
+
+    &.btn-icon-right {
+      padding-right: 20px;
+      padding-left: 20px;
+      i {
+        font-size: 26px;
+        margin-left: 14px;
+      }
+    }
+  }
+
+  &.btn-3d {
+    border-bottom: 2px solid;
+  }
+
+  &.btn-round {
+    border-radius: 50px
+  }
+
+  &.btn-square {
+    border-radius: 0px
+  }
+
+  &.btn-outline {
+    background-color: transparent;
+  }
+
+}
+
+
+/* Button Colors
+-------------------------------------*/
+.btn-green {
+  background-color: $li-green;
+  transition: all 0.5s ease-out;
+
+  &:hover {
+    background-color: darken($li-green, 7);
+    color: $li-white;
+    transition: all 0.2s ease-out;
+  }
+
+  &:focus {
+    background-color: darken($li-green, 20);
+    color: $li-white;
+  }
+
+  &.btn-3d {
+    border-bottom-color: darken($li-green, 15);
+  }
+
+  &.btn-outline {
+    border-color: $li-green;
+    color: $li-green;
+
+    &:hover {
+      background-color: $li-green;
+      color: $li-white;
+    }
+  }
+}
+
+.btn-blue {
+  background-color: $li-blue;
+  transition: all 0.5s ease-out;
+
+  &:hover {
+    background-color: darken(#48b0f7, 7);
+    color: $li-white;
+    transition: all 0.2s ease-out;
+  }
+
+  &:focus {
+    background-color: darken(#48b0f7, 20);
+    color: $li-white;
+  }
+  &.btn-3d {
+    border-bottom-color: darken(#48b0f7, 20);
+  }
+
+  &.btn-outline {
+    border-color: #48b0f7;
+    color: #48b0f7;
+
+    &:hover {
+      background-color: #48b0f7;
+      color: $li-white;
+    }
+  }
+}
+
+.btn-red {
+  background-color: $li-red;
+  transition: all 0.5s ease-out;
+
+  &:hover {
+    background-color: darken($li-red, 7);
+    color: $li-white;
+    transition: all 0.2s ease-out;
+  }
+
+  &:focus {
+    background-color: darken($li-red, 20);
+    color: $li-white;
+  }
+  &.btn-3d {
+    border-bottom-color: darken($li-red, 20);
+  }
+
+  &.btn-outline {
+    border-color: $li-red;
+    color: $li-red;
+
+    &:hover {
+      background-color: $li-red;
+      color: $li-white;
+    }
+  }
+}
+
+.btn-yellow {
+  background-color: $li-yellow;
+  transition: all 0.5s ease-out;
+
+  &:hover {
+    background-color: darken($li-yellow, 7);
+    color: $li-white;
+    transition: all 0.2s ease-out;
+  }
+
+  &:focus {
+    background-color: darken($li-yellow, 20);
+    color: $li-white;
+  }
+  &.btn-3d {
+    border-bottom-color: darken($li-yellow, 20);
+  }
+
+  &.btn-outline {
+    border-color: $li-yellow;
+    color: $li-yellow;
+
+    &:hover {
+      background-color: $li-yellow;
+      color: $li-white;
+    }
+  }
+}
+
+.btn-purple {
+  background-color: $li-purple;
+  transition: all 0.5s ease-out;
+
+  &:hover {
+    background-color: darken($li-purple, 7);
+    color: $li-white;
+    transition: all 0.2s ease-out;
+  }
+
+  &:focus {
+    background-color: darken($li-purple, 20);
+    color: $li-white;
+  }
+  &.btn-3d {
+    border-bottom-color: darken($li-purple, 20);
+  }
+
+  &.btn-outline {
+    border-color: $li-purple;
+    color: $li-purple;
+
+    &:hover {
+      background-color: $li-purple;
+      color: $li-white;
+    }
+  }
+}
+
+.btn-gray {
+  background-color: $li-gray;
+  transition: all 0.5s ease-out;
+
+  &:hover {
+    background-color: darken($li-gray, 7);
+    color: $li-white;
+    transition: all 0.2s ease-out;
+  }
+
+  &:focus {
+    background-color: darken($li-gray, 20);
+    color: $li-white;
+  }
+  &.btn-3d {
+    border-bottom-color: darken($li-gray, 10);
+  }
+
+  &.btn-outline {
+    border-color: $li-gray;
+    color: $li-gray;
+
+    &:hover {
+      background-color: $li-gray;
+      color: $li-white;
+    }
+  }
+}
+
+.btn-white {
+  background-color: $li-white;
+  transition: all 0.5s ease-out;
+  color: $default-content-color;
+
+  &:hover {
+    background-color: darken(#efefef, 7);
+    color: $default-content-color;
+    transition: all 0.2s ease-out;
+  }
+
+  &:focus {
+    background-color: darken(#efefef, 20);
+    color: $li-white;
+  }
+
+  &:visited{
+    color: $default-content-color;
+  }
+
+  &.btn-3d {
+    border-bottom-color: darken(#efefef, 12);
+  }
+
+  &.btn-outline {
+    border-color: $li-white;
+    color: $li-white;
+
+    &:hover {
+      background-color: $li-white;
+      color: $default-content-color;
+    }
+  }
+}
+
+.btn-turquoise {
+  background-color: $li-turquoise;
+  transition: all 0.5s ease-out;
+
+  &:hover {
+    background-color: darken($li-turquoise, 7);
+    color: $li-white;
+    transition: all 0.2s ease-out;
+  }
+
+  &:focus {
+    background-color: darken($li-turquoise, 20);
+    color: $li-white;
+  }
+  &.btn-3d {
+    border-bottom-color: darken($li-turquoise, 10);
+  }
+
+  &.btn-outline {
+    border-color: $li-turquoise;
+    color: $li-turquoise;
+
+    &:hover {
+      background-color: $li-turquoise;
+      color: $li-white;
+    }
+  }
+}
+
+.btn-custom1, .btn-custom2, .btn-custom3, .btn-custom4 {
+  background-color: $li-green;
+  transition: all 0.5s ease-out;
+
+  &:hover {
+    background-color: darken($li-green, 7);
+    color: $li-white;
+    transition: all 0.2s ease-out;
+  }
+
+  &:focus {
+    background-color: darken($li-green, 20);
+    color: $li-white;
+  }
+
+  &.btn-3d {
+    border-bottom-color: darken($li-green, 15);
+  }
+
+  &.btn-outline {
+    border-color: $li-green;
+    color: $li-green;
+
+    &:hover {
+      background-color: $li-green;
+      color: $li-white;
+    }
+  }
+}
+
+/* Buttons Media Queries
+-------------------------------------*/
+/* Desktops devices (desktops, 1200px and down)*/
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 1200px) {
+
+  .btn.btn-lg {
+    font-size: 18px;
+    padding: 10px 36px 11px;
+    height: 48px;
+
+    &.btn-icon-left {
+      i {
+        font-size: 20px;
+        margin-right: 11px;
+      }
+    }
+
+    &.btn-icon-right {
+      i {
+        font-size: 20px;
+        margin-left: 11px;
+      }
+    }
+  }
+
+}
+
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 992px) {  }
+//
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) {  }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

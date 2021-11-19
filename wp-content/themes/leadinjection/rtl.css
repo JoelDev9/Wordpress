@@ -1,0 +1,25 @@
+/**
+ * CSS support for language written in a Right To Left (RTL)
+ *
+ * -------------------------------------------------------------------
+ *
+ * @package    Leadinjection WordPress Theme
+ * @author     Themeinjection <info@themeinjection.com>
+ * @copyright  2016 Themeinjection
+ * @link       http://leadinjection.io/
+ *
+ * -------------------------------------------------------------------
+ *
+ */
+
+
+/*
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+*/

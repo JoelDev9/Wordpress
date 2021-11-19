@@ -1,0 +1,243 @@
+// 08. Feature Icon Text
+/*------------------------------------------------------------------------------------------*/
+/* 08. Feature Icon Text */
+/*------------------------------------------------------------------------------------------*/
+
+.feature-icon-text {
+  font-size: 16px;
+  text-align: center;
+
+  .feature-icon-text-icon {
+    color: $color1;
+    font-size: 72px;
+    margin: 0 auto 10px auto;
+    width: 125px;
+    height: 125px;
+    line-height: 125px;
+    transition: all 0.2s ease;
+
+    &.big {
+      margin-bottom: 35px;
+      font-size: 120px;
+      transition: all 0.2s ease;
+      color: $color1;
+      a {
+        color: $color1;
+      }
+    }
+
+    &.round {
+      margin-bottom: 35px;
+      color: $color0;
+      border-radius: 63px;
+      background-color: $color1;
+      border: 3px solid $color0;
+      line-height: 118px;
+      transition: all 0.8s ease;
+      a {
+        color: $color0;
+      }
+    }
+
+    &.square {
+      margin-bottom: 35px;
+      color: $color0;
+      background-color: $color1;
+      border: 3px solid $color0;
+      line-height: 118px;
+      transition: all 0.8s ease;
+      a {
+        color: $color0;
+      }
+    }
+
+    &.underline {
+      margin-bottom: 35px;
+      border-bottom: 2px solid $color1;
+      transition: all 0.2s ease;
+      color: $color1;
+      a {
+        color: $color1;
+      }
+    }
+
+    &.rounded {
+      color: $color0;
+      background-color: $color1;
+      margin-bottom: 35px;
+      border-radius: 10px;
+      line-height: 118px;
+      border: 3px solid $color0;
+      transition: all 0.8s ease;
+    }
+
+    &.image {
+      margin-bottom: 40px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .feature-icon-text-title {
+    color: $default-title-color;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 25px 0;
+
+    a {
+      //color: $default-title-color;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+  }
+
+  .feature-icon-text-more {
+    //color: $color1;
+  }
+
+  &:hover {
+    .feature-icon-text-icon {
+      a{
+        text-decoration: none;
+        color: $color1;
+      }
+
+      &.big {
+        transform: rotate(10deg);
+        font-size: 100px;
+        color: $color1;
+      }
+
+      &.round {
+        color: $color1;
+        border: 3px solid $color1;
+        background-color: $color0;
+        a {
+          color: $color1;
+        }
+      }
+
+      &.square {
+        color: $color1;
+        border: 3px solid $color1;
+        background-color: $color0;
+        a {
+          color: $color1;
+        }
+      }
+
+      &.rounded {
+        color: $color1;
+        border: 3px solid $color1;
+        background-color: $color0;
+        a {
+          color: $color1;
+        }
+      }
+
+      &.underline {
+        font-size: 90px;
+      }
+    }
+    .feature-icon-text-title {
+      color: $default-title-color;
+      a {
+        //color: $color1;
+      }
+    }
+  }
+}
+
+
+/* Feature Icon Text Media Queries
+-------------------------------------*/
+/* Desktops devices (desktops, 1200px and down)*/
+//////////////////////////////////////////////////////////////////////////
+@media (max-width: 1200px) {
+  .feature-icon-text {
+    margin-bottom: 45px / 100 * $scale1200;
+    font-size: 16px / 100 * $scale1200;;
+
+    .feature-icon-text-icon {
+      font-size: 72px / 100 * $scale1200;
+      width: 125px / 100 * $scale1200;
+      height: 125px / 100 * $scale1200;
+      line-height: 125px / 100 * $scale1200;
+      margin-bottom: 10px / 100 * $scale1200;
+
+      &.big {
+        margin-bottom: 35px / 100 * $scale1200;
+        font-size: 120px / 100 * $scale1200;
+      }
+
+      &.round {
+        margin-bottom: 35px / 100 * $scale1200;
+        border-radius: 63px / 100 * $scale1200;
+        border: 3px / 100 * $scale1200 solid $color0;
+        line-height: 118px / 100 * $scale1200;
+      }
+
+      &.square {
+        margin-bottom: 35px / 100 * $scale1200;
+        border: 3px / 100 * $scale1200 solid $color0;
+        line-height: 118px / 100 * $scale1200;;
+      }
+
+      &.underline {
+        margin-bottom: 35px / 100 * $scale1200;
+        border-bottom: 2px / 100 * $scale1200 solid $color1;
+      }
+
+      &.rounded {
+        margin-bottom: 35px / 100 * $scale1200;
+        border-radius: 10px / 100 * $scale1200;
+        line-height: 118px / 100 * $scale1200;
+      }
+
+      &.image {
+        margin-bottom: 40px / 100 * $scale1200;;
+      }
+    }
+
+    .feature-icon-text-title {
+      font-size: 24px / 100 * $scale1200;
+      margin: 0 0 30px / 100 * $scale1200 0;
+    }
+
+    &:hover {
+      .feature-icon-text-icon {
+
+        &.big {
+          font-size: 100px / 100 * $scale1200;;
+        }
+
+        &.round {
+          border: 3px/ 100 * $scale1200 solid $color1;
+        }
+
+        &.square {
+          border: 3px / 100 * $scale1200 solid $color1;
+        }
+
+        &.underline {
+          font-size: 90px / 100 * $scale1200;
+        }
+      }
+    }
+  }
+}
+
+
+///* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 992px) {  }
+//
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) {  }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }
+

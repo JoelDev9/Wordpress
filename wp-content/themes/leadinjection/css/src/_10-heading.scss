@@ -1,0 +1,248 @@
+// 10. Headings
+/*------------------------------------------------------------------------------------------*/
+/* 10. Headings */
+/*------------------------------------------------------------------------------------------*/
+
+.li-heading {
+  color: $color1;
+  margin: 0;
+
+  small {
+    display: block;
+    color: $default-title-color;
+  }
+}
+
+h1.li-heading {
+
+  font-size: 54px;
+  line-height: 73px;
+
+  small {
+    font-size: 36px;
+    line-height: 51px;
+  }
+
+}
+
+h2.li-heading {
+
+  font-size: 48px;
+  line-height: 66px;
+
+  small {
+    font-size: 30px;
+    line-height: 44px;
+  }
+
+}
+
+h3.li-heading {
+  font-size: 30px;
+  line-height: 44px;
+
+  small {
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+}
+
+h4.li-heading {
+
+  font-size: 26px;
+  line-height: 39px;
+
+  small {
+    font-size: 20px;
+    line-height: 31px;
+  }
+
+}
+
+h5.li-heading {
+
+  font-size: 24px;
+  line-height: 37px;
+
+  small {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+}
+
+h6.li-heading {
+
+  font-size: 20px;
+  line-height: 33px;
+
+  small {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+}
+
+/* Headings Media Queries
+-------------------------------------*/
+/* Large devices (desktops, 1200px and up)*/
+//////////////////////////////////////////////////////////////////////////
+@media (max-width: 1200px) {
+
+  .li-heading {
+    // margin-bottom: 25px / 100 * $scale1200;
+  }
+
+  h1.li-heading {
+    font-size: 54px / 100 * $scale1200;
+    line-height: 73px / 100 * $scale1200;
+
+    small {
+      font-size: 36px / 100 * $scale1200;
+      line-height: 51px / 100 * $scale1200;
+    }
+
+  }
+
+  h2.li-heading {
+    font-size: 48px / 100 * $scale1200;
+    line-height: 66px / 100 * $scale1200;
+
+    small {
+      font-size: 30px / 100 * $scale1200;
+      line-height: 44px / 100 * $scale1200;
+    }
+
+  }
+
+  h3.li-heading {
+    font-size: 30px / 100 * $scale1200;
+    line-height: 44px / 100 * $scale1200;
+
+    small {
+      font-size: 20px / 100 * $scale1200;
+      line-height: 33px / 100 * $scale1200;
+    }
+
+  }
+
+  h4.li-heading {
+    font-size: 26px / 100 * $scale1200;
+    line-height: 39px / 100 * $scale1200;
+
+    small {
+      font-size: 18px / 100 * $scale1200;
+      line-height: 31px;
+    }
+
+  }
+
+  h5.li-heading {
+    font-size: 24px / 100 * $scale1200;
+    line-height: 37px / 100 * $scale1200;
+
+    small {
+      font-size: 16px / 100 * $scale1200;
+      line-height: 30px / 100 * $scale1200;
+    }
+
+  }
+
+  h6.li-heading {
+    font-size: 20px / 100 * $scale1200;
+    line-height: 33px / 100 * $scale1200;
+
+    small {
+      font-size: 16px / 100 * $scale1200;
+      line-height: 30px / 100 * $scale1200;
+    }
+
+  }
+
+}
+
+/* Headings Media Queries
+-------------------------------------*/
+///* Desktops devices (desktops, 1200px and down)*/
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 992px) {  }
+
+/* Small devices (768px and down) */
+//////////////////////////////////////////////////////////////////////////
+@media (max-width: 768px) {
+
+  .li-heading {
+    margin-bottom: 25px / 100 * $scale768;
+  }
+
+  h1.li-heading {
+    font-size: 54px / 100 * $scale768;
+    line-height: 73px / 100 * $scale768;
+
+    small {
+      font-size: 36px / 100 * $scale768;
+      line-height: 51px / 100 * $scale768;
+    }
+
+  }
+
+  h2.li-heading {
+    font-size: 48px / 100 * $scale768;
+    line-height: 66px / 100 * $scale768;
+
+    small {
+      font-size: 30px / 100 * $scale768;
+      line-height: 44px / 100 * $scale768;
+    }
+
+  }
+
+  h3.li-heading {
+    font-size: 30px / 100 * $scale768;
+    line-height: 44px / 100 * $scale768;
+
+    //small {
+    //  font-size: 20px / 100 * $scale768;
+    //  line-height: 33px / 100 * $scale768;
+    //}
+
+  }
+
+  h4.li-heading {
+    font-size: 26px / 100 * $scale768;
+    line-height: 39px / 100 * $scale768;
+
+    small {
+      font-size: 18px / 100 * $scale768;
+      line-height: 31px;
+    }
+
+  }
+
+  h5.li-heading {
+    font-size: 24px / 100 * $scale768;
+    line-height: 37px / 100 * $scale768;
+
+    small {
+      font-size: 16px / 100 * $scale768;
+      line-height: 30px / 100 * $scale768;
+    }
+
+  }
+
+  //h6.li-heading {
+  //  font-size: 20px / 100 * $scale768;
+  //  line-height: 33px / 100 * $scale768;
+  //
+  //  small {
+  //    font-size: 16px / 100 * $scale768;
+  //    line-height: 30px / 100 * $scale768;
+  //  }
+  //
+  //}
+}
+
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) {  }

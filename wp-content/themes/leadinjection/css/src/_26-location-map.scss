@@ -1,0 +1,116 @@
+// 26. Location Map
+/*------------------------------------------------------------------------------------------*/
+/* 26. Location Map */
+/*------------------------------------------------------------------------------------------*/
+
+.location-map {
+  position: relative;
+  height: 500px;
+  margin: 0;
+
+  .location-map-gmap {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    //border-bottom: 10px solid $color1;
+    z-index: 1;
+    margin: 0;
+  }
+
+  .location-map-address {
+    position: absolute;
+    max-width: 1170px;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 2;
+    left: 0;
+    right: 0;
+
+    .location-map-address-box {
+      background-color: $color1;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      width: 360px;
+
+      float: right;
+      z-index: 2;
+      padding: 25px 30px 10px 12px;
+
+      .title-marker {
+        float: left;
+        color: #fff;
+        font-size: 78px;
+        margin-top: -3px;
+      }
+
+      address {
+        color: #fff;
+        margin-left: 90px;
+        font-size: 18px;
+      }
+
+      a {
+        margin-left: 90px;
+        margin-bottom: 25px;
+      }
+
+    }
+  }
+}
+
+/* Location Map Media Queries
+-------------------------------------*/
+/* Desktops devices (desktops, 1200px and down)*/
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 1200px) {
+  .location-map {
+
+    .location-map-address {
+      max-width: 970px;
+
+      .location-map-address-box {
+        width: 320px;
+
+        .title-marker {
+          float: left;
+          color: #fff;
+          font-size: 68px;
+          margin-top: -3px;
+        }
+
+        address {
+          color: #fff;
+          margin-left: 82px;
+          font-size: 16px;
+        }
+
+        a {
+          margin-left: 82px;
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+}
+
+//* Medium devices (desktops, 992px and down) */
+////////////////////////////////////////////////////////////////////////////
+@media (max-width: 992px) {
+  .location-map {
+
+    .location-map-address {
+      max-width: 320px;
+      .location-map-address-box {
+        width: 320px;
+      }
+    }
+  }
+}
+
+///* Small devices (768px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 768px) { }
+//
+///* Extra Small devices (480px and down) */
+////////////////////////////////////////////////////////////////////////////
+//@media (max-width: 480px) { }

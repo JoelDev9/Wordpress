@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="231px" height="69px" viewBox="0 0 231 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Button App Store</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing-Page-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-585.000000, -5463.000000)">
+        <g id="Group-13" transform="translate(174.000000, 5220.000000)">
+            <g id="Button-App-Store" transform="translate(411.000000, 243.000000)">
+                <rect id="Rectangle-9" stroke="#FFFFFF" stroke-width="2" x="1" y="1" width="229" height="67" rx="6"></rect>
+                <g id="Group-15" transform="translate(37.000000, 15.000000)">
+                    <text id="Description-Copy" font-family="Roboto-Regular, Roboto" font-size="12.1000003" font-weight="normal" fill="#DDE0E5">
+                        <tspan x="49.5000011" y="11">Find it on the</tspan>
+                    </text>
+                    <text id="Description-Copy-2" font-family="Roboto-Bold, Roboto" font-size="16.5000004" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="49.5000011" y="32.6000004">iOS App Store</tspan>
+                    </text>
+                    <path d="M21.889749,9.78476212 C25.9026434,9.78476212 28.4687235,13.593067 28.4687235,13.593067 C28.4687235,13.593067 24.5542634,15.6765718 24.5542634,20.2014481 C24.5542634,25.5719625 29.4717349,27.134172 29.4717349,27.134172 C29.4717349,27.134172 25.5903691,36.1671627 21.2321062,36.1671627 C18.7814318,36.1671627 18.6176575,34.7843055 15.3608403,34.7843055 C12.5325517,34.7843055 11.5787574,36.1671627 9.42423449,36.1671627 C5.31205726,36.1671627 0,27.3621339 0,20.2014481 C0,12.7633527 5.37824583,9.78476212 8.74962019,9.78476212 C11.710286,9.78476212 12.9432603,11.4936383 15.327746,11.4936383 C17.3346175,11.4936383 18.913809,9.78476212 21.889749,9.78476212 L21.889749,9.78476212 Z M21.1998605,2.20000005 C21.7913148,5.84571441 18.4199404,10.3546669 14.3909232,10.2080002 C13.7986203,5.56914298 18.1407604,2.44472386 21.1998605,2.20000005 L21.1998605,2.20000005 Z" id="Imported-Layers" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
